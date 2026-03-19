@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catalogo Esami di Laboratorio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f3ee;
+      --surface: #ffffff;
+      --primary: #c0392b;
+      --accent: #2c3e50;
+      --text: #1a1a1a;
+      --muted: #7f8c8d;
+      --border: #e0ddd6;
+      --tag-bg: #fdecea;
+      --tag-color: #c0392b;
+      --highlight: #fff3cd;
+      --shadow: 0 2px 12px rgba(0,0,0,0.08);
+      --radius: 10px;
+    }
+
+    body { font-family: 'Sora', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
+
+    header {
+      background: var(--accent); color: #fff;
+      padding: 28px 32px 22px;
+      display: flex; align-items: flex-end; gap: 18px; flex-wrap: wrap;
+    }
+    .logo-mark {
+      width: 44px; height: 44px; background: var(--primary);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 500;
+      color: #fff; letter-spacing: -1px; flex-shrink: 0;
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { font-size: 0.78rem; font-weight: 300; color: rgba(255,255,255,0.6); margin-top: 2px; }
+
+    .search-wrapper { background: var(--accent); padding: 0 32px 28px; }
+    .search-box {
+      display: flex; align-items: center; background: #fff;
+      border-radius: 50px; padding: 10px 20px; gap: 10px;
+      max-width: 600px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .search-box svg { color: var(--muted); flex-shrink: 0; }
+    .search-box input {
+      border: none; outline: none; font-family: 'Sora', sans-serif;
+      font-size: 1rem; width: 100%; background: transparent; color: var(--text);
+    }
+    .search-box input::placeholder { color: var(--muted); }
+    .clear-btn {
+      background: var(--border); border: none; cursor: pointer;
+      border-radius: 50%; width: 22px; height: 22px;
+      display: none; align-items: center; justify-content: center;
+      color: var(--muted); font-size: 14px; flex-shrink: 0;
+    }
+    .clear-btn.visible { display: flex; }
+
+    .stats-bar {
+      display: flex; align-items: center; gap: 16px;
+      padding: 14px 32px; background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem; color: var(--muted);
+    }
+    .stats-bar strong { color: var(--text); font-weight: 600; }
+
+    .table-container { padding: 24px 32px 40px; overflow-x: auto; }
+    table {
+      width: 100%; border-collapse: collapse; background: var(--surface);
+      border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+    }
+    thead tr { background: var(--accent); color: #fff; }
+    thead th {
+      padding: 13px 18px; text-align: left;
+      font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.5px; text-transform: uppercase;
+      font-family: 'DM Mono', monospace;
+    }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #f9f7f4; }
+    tbody td { padding: 12px 18px; font-size: 0.9rem; }
+    td.codice { font-family: 'DM Mono', monospace; font-size: 0.85rem; font-weight: 500; color: var(--primary); }
+    td.descrizione { font-weight: 500; }
+    .badge {
+      display: inline-block; padding: 3px 10px; border-radius: 50px;
+      font-size: 0.72rem; font-weight: 600;
+      background: var(--tag-bg); color: var(--tag-color);
+      font-family: 'DM Mono', monospace;
+    }
+    mark { background: var(--highlight); color: inherit; border-radius: 2px; padding: 0 1px; }
+
+    .empty { text-align: center; padding: 60px 32px; color: var(--muted); }
+    .empty svg { opacity: 0.3; margin-bottom: 14px; display: block; margin-inline: auto; }
+    .empty h3 { font-size: 1rem; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+    .empty p  { font-size: 0.85rem; }
+
+    .error-msg {
+      margin: 40px 32px; padding: 20px 24px;
+      background: var(--surface); border-left: 4px solid var(--primary);
+      border-radius: var(--radius); font-size: 0.9rem; color: var(--muted);
+    }
+    .error-msg strong { color: var(--text); display: block; margin-bottom: 4px; }
+
+    @media (max-width: 600px) {
+      header         { padding: 16px; gap: 12px; }
+      header h1      { font-size: 1.1rem; }
+      header p       { font-size: 0.72rem; }
+      .logo-mark     { width: 36px; height: 36px; font-size: 15px; }
+
+      .search-wrapper { padding: 0 12px 18px; }
+      .search-box    { padding: 8px 14px; }
+      .search-box input { font-size: 0.92rem; }
+
+      .stats-bar     { padding: 10px 12px; font-size: 0.78rem; }
+
+      .table-container { padding: 12px 8px 32px; }
+        table          { font-size: 0.82rem; table-layout: fixed; width: 100%; }
+      td.codice      { width: 13%; }
+      td.descrizione { width: 57%; word-break: break-word; }
+      td:last-child  { width: 30%; word-break: break-word; }
+      thead th       { padding: 10px 8px; font-size: 0.68rem; }
+      thead th:nth-child(1) { width: 13%; }
+      thead th:nth-child(2) { width: 57%; }
+      thead th:nth-child(3) { width: 30%; }
+      tbody td       { padding: 10px 8px; font-size: 0.82rem; }
+      td.codice      { font-size: 0.75rem; }
+      .badge         { font-size: 0.65rem; padding: 2px 7px; }
+
+      .error-msg     { margin: 20px 12px; }
+      .empty         { padding: 40px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">B</div>
+  <div>
+    <h1>Catalogo Esami di Laboratorio</h1>
+    <p>Ricerca per codice, descrizione o provetta</p>
+  </div>
+</header>
+
+<div class="search-wrapper">
+  <div class="search-box">
+    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input id="searchInput" type="text" placeholder="Cerca esame..." autocomplete="off"/>
+    <button class="clear-btn" id="clearBtn" title="Cancella">✕</button>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <span id="statsText">Caricamento in corso...</span>
+</div>
+
+<div id="content"></div>
+
+<script>
+  let allData = [];
+  const searchInput = document.getElementById('searchInput');
+  const clearBtn    = document.getElementById('clearBtn');
+  const statsText   = document.getElementById('statsText');
+  const content     = document.getElementById('content');
+
+  function parseCSV(text) {
+    const lines = text.trim().split(/\r?\n/);
+    if (lines.length < 2) return [];
+    const sep = lines[0].includes(';') ? ';' : ',';
+    const header = lines[0].split(sep).map(h => h.trim().toLowerCase().replace(/[^a-z]/g,''));
+    const cols = { esame: 0, descrizione: 1, provetta: 2 };
+    header.forEach((h, i) => {
+      if (h.includes('esam') || h.includes('cod')) cols.esame = i;
+      if (h.includes('descr'))                      cols.descrizione = i;
+      if (h.includes('prov') || h.includes('tubo')) cols.provetta = i;
+    });
+    const result = [];
+    for (let i = 1; i < lines.length; i++) {
+      const cells = lines[i].split(sep);
+      if (cells.length < 2) continue;
+      result.push({
+        esame:       (cells[cols.esame]       || '').trim(),
+        descrizione: (cells[cols.descrizione] || '').trim(),
+        provetta:    (cells[cols.provetta]    || '').trim(),
+      });
+    }
+    return result.filter(r => r.esame || r.descrizione);
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  function highlight(text, q) {
+    if (!q) return escapeHtml(text);
+    return escapeHtml(text).replace(new RegExp(`(${escapeHtml(q)})`, 'gi'), '<mark>$1</mark>');
+  }
+
+  function renderRows(data, q) {
+    if (data.length === 0) {
+      content.innerHTML = `
+        <div class="empty">
+          <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            <line x1="8" y1="11" x2="14" y2="11"/>
+          </svg>
+          <h3>Nessun risultato trovato</h3>
+          <p>Prova con un termine diverso</p>
+        </div>`;
+      return;
+    }
+    const rows = data.map(r => `
+      <tr>
+        <td class="codice">${highlight(r.esame, q)}</td>
+        <td class="descrizione">${highlight(r.descrizione, q)}</td>
+        <td><span class="badge">${highlight(r.provetta, q)}</span></td>
+      </tr>`).join('');
+    content.innerHTML = `
+      <div class="table-container">
+        <table>
+          <thead><tr><th>Codice</th><th>Descrizione</th><th>Provetta</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function updateStats(shown, total) {
+    statsText.innerHTML = shown === total
+      ? `<strong>${total}</strong> esami nel catalogo`
+      : `<strong>${shown}</strong> risultati su <strong>${total}</strong>`;
+  }
+
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    clearBtn.classList.toggle('visible', q.length > 0);
+    const filtered = q
+      ? allData.filter(r =>
+          r.esame.toLowerCase().includes(q) ||
+          r.descrizione.toLowerCase().includes(q) ||
+          r.provetta.toLowerCase().includes(q))
+      : allData;
+    renderRows(filtered, q);
+    updateStats(filtered.length, allData.length);
+  });
+
+  clearBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    clearBtn.classList.remove('visible');
+    renderRows(allData, '');
+    updateStats(allData.length, allData.length);
+    searchInput.focus();
+  });
+
+  fetch('esami.csv')
+    .then(r => { if (!r.ok) throw new Error(); return r.text(); })
+    .then(text => {
+      const data = parseCSV(text);
+      if (data.length === 0) throw new Error();
+      allData = data;
+      renderRows(allData, '');
+      updateStats(allData.length, allData.length);
+    })
+    .catch(() => {
+      statsText.textContent = 'Errore caricamento';
+      content.innerHTML = `
+        <div class="error-msg">
+          <strong>Impossibile caricare esami.csv</strong>
+          Assicurati che il file sia nella stessa cartella di index.html nel repository GitHub.
+        </div>`;
+    });
+</script>
+</body>
+</html>
