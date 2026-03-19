@@ -1,0 +1,937 @@
+ESAME;DESCRIZIONE;PROVETTA
+L0001   ;CALCOLO URINARIO: ES.CHIM.FISICO                                                ;SY-Rep. Urine
+L0002   ;U-GLUCOSIO mattino                                                              ;URINE
+L0003   ;U-PROTEINE                                                                      ;URINE
+L0004   ;U-TEST DI GRAVIDANZA                                                            ;URINE
+L0006   ;F-PARASSITI INTESTINALI(DOPO CONCENTR.)1                                        ;FECI CAMP 1
+L0008   ;F-GIARDIA ANTIGENE RICERCA DIRETTA                                              ;FECI
+L0009   ;PAP TEST CONVENZIONALE                                                          ;PAP TEST
+L0010   ;F-RICERCA PARASSITI INTESTINALI (camp.1)                                        ;FECI CAMP 1
+L0011   ;F-RICERCA PARASSITI INTESTINALI (camp.3)                                        ;FECI CAMP 3
+L0013   ;U-CREATININA                                                                    ;URINE IT
+L0014   ;dU-UREA                                                                         ;URINE 24 ore
+L0015   ;dU-FOSFORO                                                                      ;UR/24h ACIDIF.
+L0016   ;dU-ACIDO URICO                                                                  ;URINE 24 ore
+L0017   ;dU-CALCIO                                                                       ;UR/24h ACIDIF.
+L0018   ;U-CREATININA fine turno                                                         ;URINE FT
+L0019   ;dU-FERRO                                                                        ;SY-Urine 24h Tox
+L0020   ;U-17 CHETOSTEROIDI                                                              ;SY-Urine 24h Acid.
+L0021   ;dU-AMILASI                                                                      ;UR/24h ACIDIF.
+L0023   ;S-RAME                                                                          ;T.GIALLO 1
+L0024   ;dU-RAME                                                                         ;SY-Urine 24h Tox
+L0025   ;dU-ACIDO VANILMANDELICO                                                         ;SY-Urine 24h Acid.
+L0026   ;dU-SODIO                                                                        ;URINE 24 ore
+L0027   ;dU-POTASSIO                                                                     ;URINE 24 ore
+L0028   ;dU-CLORO                                                                        ;URINE 24 ore
+L0029   ;dU-MAGNESIO                                                                     ;UR/24h ACIDIF.
+L0030   ;dU-IDROSSIPROLINA                                                               ;SY-Urine 24h
+L0031   ;dU-CATECOLAMINE FRAZIONATE                                                      ;SY-Urine 24h Acid.
+L0032   ;P-CATECOLAMINE FRAZIONATE                                                       ;SY-Viola ToxPat
+L0034   ;ESAME CITOLOGICO X RICERCA ASBESTO                                              ;Epett.x Asbesto
+L0035   ;U-GLUCOSIO pomeridiano                                                          ;URINE POMERIGGIO
+L0036   ;Sg-VELOCITA'DI ERITROSEDIMENTAZIONE(VES)                                        ;T.VIOLA
+L0037   ;Sg-EMOCROMO                                                                     ;T.VIOLA
+L0037   ;Sg-EMOCROMO                                                                     ;T.VIOLA
+L0040   ;Sg-EMOGLOBINA GLICATA                                                           ;T.VIOLA
+L0041   ;Sg-PIASTRINE IN CITRATO                                                         ;T.AZZURRO PLT
+L0042   ;Sg-RETICOLOCITI                                                                 ;T.VIOLA
+L0045   ;Sg-RESISTENZA OSMOTICA ERITROCITARIA                                            ;SY-T.Viola
+L0046   ;Sg-EMOGLOBINE ANOMALE                                                           ;T.VIOLA
+L0049   ;S-ERITROPOIETINA                                                                ;SY-T.GIALLO
+L0050   ;P-FIBRINOGENO                                                                   ;T.AZZURRO
+L0051   ;P-TEMPO DI PROTROMBINA (PT)                                                     ;T.AZZURRO
+L0052   ;P-TEMPO DI TROMBOPLASTINA PARZIALE(aPTT)                                        ;T.AZZURRO
+L0053   ;P-ANTITROMBINA III FUNZIONALE (ATIII)                                           ;T.AZZURRO
+L0054   ;P-PROTEINA C FUNZIONALE                                                         ;SY-T.Azzurro CONG
+L0055   ;P-RESISTENZA ALLA PROTEINA C ATTIVATA                                           ;SY-T.Azzurro CONG
+L0056   ;P-PROTEINA S LIBERA                                                             ;SY-T.Azzurro CONG
+L0057   ;P-F.D.P. EMATICI                                                                ;SY-T.Azzurro CONG
+L0058   ;S-FRUTTOSAMINA                                                                  ;SY-T.GIALLO
+L0059   ;GLUCOSIO POST PRANDIALE                                                         ;T.GRIGIO
+L0060   ;P-GLUCOSIO CURVA DA CARICO (3 DET.)                                             ;T.GRIGIO
+L0061   ;P-GLUCOSIO CURVA DA CARICO (4 DET.)                                             ;T.GRIGIO
+L0062   ;S-LITIO                                                                         ;T.GIALLO 1
+L0063   ;P-GLUCOSIO CURVA DA CARICO(FINO A 6 DET)                                        ;T.GRIGIO
+L0064   ;S-GLUCOSIO                                                                      ;T.GIALLO
+L0064   ;S-GLUCOSIO                                                                      ;T.GIALLO
+L0065   ;P-GLUCOSIO CURVA DA CARICO (2 DET.)                                             ;T.GRIGIO
+L0068   ;S-UREA                                                                          ;T.GIALLO
+L0069   ;dU-UREA CLEARANCE                                                               ;URINE 24 ore
+L0070   ;S-SODIO                                                                         ;T.GIALLO
+L0071   ;S-POTASSIO                                                                      ;T.GIALLO
+L0072   ;S-CLORO                                                                         ;T.GIALLO
+L0073   ;S-CALCIO                                                                        ;T.GIALLO
+L0074   ;S-MAGNESIO                                                                      ;T.GIALLO
+L0075   ;S-FOSFORO                                                                       ;T.GIALLO
+L0076   ;S-CREATININA                                                                    ;T.GIALLO
+L0078   ;S-ACIDO URICO                                                                   ;T.GIALLO
+L0079   ;S-FERRO                                                                         ;T.GIALLO
+L0081   ;S-IMMUNOGLOBULINE A (IgA)                                                       ;T.GIALLO
+L0082   ;S-IMMUNOGLOBULINE G (IgG)                                                       ;T.GIALLO
+L0083   ;S-IMMUNOGLOBULINE M (IgM)                                                       ;T.GIALLO
+L0084   ;S-COMPLEMENTO FRAZIONE C3                                                       ;T.GIALLO
+L0085   ;S-COMPLEMENTO FRAZIONE C4                                                       ;T.GIALLO
+L0086   ;S-FERRITINA                                                                     ;T.GIALLO
+L0087   ;S-TRANSFERRINA                                                                  ;T.GIALLO
+L0088   ;dU-CREATININA CLEARANCE                                                         ;URINE 24 ore
+L0089   ;S-IMMUNOGLOBULINE E TOTALI (IgE totali)                                         ;T.GIALLO**
+L0090   ;S-CAPACITA' FERRO LEGANTE (TIBC)                                                ;T.GIALLO
+L0091   ;dU-IMMUNOFISSAZIONE URINARIA                                                    ;SY-Urine 24h
+L0093   ;S-IMMUNOGLOBULINE D (IgD)                                                       ;SY-T.GIALLO
+L0094   ;S-ELETTROFORESI DELLE SIEROPROTEINE                                             ;T.GIALLO 2
+L0095   ;S-PROTEINE TOTALI                                                               ;T.GIALLO
+L0096   ;S-ALBUMINA                                                                      ;T.GIALLO
+L0098   ;dU-ELETTROFORESI PROTEINE URINARIE                                              ;SY-Urine 24h
+L0099   ;S-IMMUNOFISSAZIONE SIERICA                                                      ;T.GIALLO 3
+L0100   ;U-RAPPORTO ALBUMINA/CREATININA                                                  ;
+L0101   ;U-RAPPORTO CALCIO/CREATININA                                                    ;URINE
+L0102   ;S-BILIRUBINA TOTALE                                                             ;T.GIALLO
+L0103   ;S-BILIRUBINA TOTALE E  FRAZIONATA                                               ;T.GIALLO
+L0104   ;S-BILIRUBINA TOTALE REFLEX                                                      ;T.GIALLO
+L0106   ;S-TRIGLICERIDI                                                                  ;T.GIALLO
+L0107   ;S-FRAZIONE C3 ATTIVA  DEL COMPLEMENTO                                           ;SY-T.GIALLO CONG
+L0108   ;S-INDICE SATURAZIONE TRANSFERRINA                                               ;T.GIALLO
+L0109   ;S-ANTICORPI ANTI ROSOLIA                                                        ;T.GIALLO 3
+L0118   ;FOSFATASI ALCALINA ISOENZIMA OSSEO                                              ;SY-T.GIALLO
+L0119   ;P-BICARBONATI                                                                   ;SY-T.VERDE
+L0121   ;S-ASPARTATO AMMINOTRANSFERASI (AST)                                             ;T.GIALLO
+L0122   ;S-ALANINA AMMINOTRANSFERASI (ALT)                                               ;T.GIALLO
+L0123   ;S-CREATINCHINASI (CK)                                                           ;T.GIALLO
+L0124   ;S-LATTATO DEIDROGENASI (LDH)                                                    ;T.GIALLO
+L0126   ;S-GAMMA-GLUTAMIL TRANSFERASI (GGT)                                              ;T.GIALLO
+L0127   ;S-COLINESTERASI (PSUEDO-CHE)                                                    ;T.GIALLO
+L0128   ;S-FOSFATASI ALCALINA (ALP)                                                      ;T.GIALLO
+L0129   ;S-FOSFATASI ACIDA TOTALE                                                        ;SY-T.GIALLO CONG
+L0130   ;S-CORTISOLO (4 DETERMINAZIONI)                                                  ;T.GIALLO
+L0131   ;S-ALFA AMILASI                                                                  ;T.GIALLO
+L0133   ;S-ALDOLASI                                                                      ;SY-T.GIALLO
+L0134   ;S-AMILASI PANCREATICA                                                           ;T.GIALLO
+L0135   ;F-ELASTASI 1 PANCREATICA                                                        ;FECI X ELASTASI
+L0136   ;Sg-G-6-PDH ERITROCITARIA                                                        ;SY-T.VIOLA
+L0137   ;S-LIPASI                                                                        ;T.GIALLO
+L0138   ;P-AMMONIEMIA                                                                    ;T.VIOLA CONG
+L0139   ;S-CREATINCHINASI ISOENZIMA MB (CK-MB)                                           ;SY-T.GIALLO
+L0140   ;U-ACIDO FORMICO inizio turno                                                    ;CE-Urine I.T.
+L0141   ;U-ACIDO FORMICO fine turno                                                      ;CE-Urine F.T.
+L0142   ;S-LDH ISOENZIMI                                                                 ;SY-T.GIALLO
+L0143   ;Sg-PIRUVATO-CHINASI ERITROCITARIA                                               ;SY-Viola integra
+L0144   ;Sg-MIOGLOBINA                                                                   ;SY-T.GIALLO
+L0151   ;S-PROTEINA C REATTIVA ALTA SENSIBILTA'                                          ;SY-T.GIALLO
+L0152   ;U-ALA inizio turno                                                              ;CE-Urine I.T.
+L0154   ;Sg-ZINCOPROTOPORFIRINA                                                          ;CE-T.VIOLA
+L0156   ;dU-PORFIRINE TOTALI                                                             ;SY-UR.BUIO
+L0156   ;dU-PORFIRINE TOTALI                                                             ;SY-UR.BUIO
+L0157   ;Sg-CARBOSSIEMOGLOBINA inizio turno                                              ;CE-T.VIOLA I.T.
+L0158   ;Sg-CARBOSSIEMOGLOBINA fine turno                                                ;CE-T.VIOLA F.T.
+L0159   ;Sg-METAEMOGLOBINA                                                               ;CE-T.VIOLA
+L0161   ;S-STREPTOCOCCO ANTICORPI A.STREPTOLISINA                                        ;T.GIALLO
+L0162   ;S-PROTEINA C REATTIVA                                                           ;T.GIALLO
+L0163   ;S-FATTORE REUMATOIDE(REUMA TEST)                                                ;T.GIALLO
+L0164   ;S-ALFA 1 GLIPROTEINA ACIDA                                                      ;SY-T.GIALLO
+L0165   ;S-TITOLO ANTISTAFILOLISINICO (TAF)                                              ;SY-T.GIALLO
+L0166   ;S-WAALER-ROSE                                                                   ;SY-T.GIALLO
+L0167   ;F-SANGUE OCCULTO CAMPIONE 1                                                     ;FECI S.O. 1
+L0168   ;F-SANGUE OCCULTO CAMPIONE 3                                                     ;FECI S.O. 3
+L0169   ;F-ESAME FECI CHIMICO E MICROSCOPICO                                             ;FECI
+L0170   ;S-MONO TEST                                                                     ;T.GIALLO 2
+L0171   ;S-VIRUS EPSTEIN BARR: REAZ. DI PAUL-BUN                                         ;SY-T.GIALLO
+L0172   ;S-V.D.R.L.                                                                      ;T.GIALLO 2
+L0174   ;ANTICORPI ANTI TREPONEMA PALLIDUM                                               ;T.GIALLO 3
+L0175   ;S-ANTICORPI ANTI EPSTEIN BARR VCA IgG                                           ;T.GIALLO 3
+L0177   ;S-ANTICORPI ANTI EPSTEIN BARR IgG EA                                            ;T.GIALLO 2
+L0178   ;S-ANTICORPI ANTI EPSTEIN BARR VCA IgM                                           ;T.GIALLO 3
+L0179   ;ANTI EPSTEIN BARR (EBNA) IgG                                                    ;T.GIALLO 2
+L0181   ;ANTICORPI ANTI EPSTEIN BARR EA IgM (Early)                                      ;T.GIALLO 2
+L0188   ;Sg-TEST DI COOMBS INDIRETTO                                                     ;T.VIOLA
+L0189   ;Sg-TEST DI COOMBS DIRETTO                                                       ;SY-T.Viola
+L0190   ;Sg-GRUPPO SANGUIGNO                                                             ;T.VIOLA
+L0191   ;URINOCOLTURA                                                                    ;URINE STERILI
+L0192   ;COPROCOLTURA                                                                    ;FECI COPRO
+L0193   ;COLTURA ESPETTORATO                                                             ;ESPETTORATO
+L0194   ;TAMPONE FARINGEO                                                                ;T.FARINGEO
+L0195   ;TAMPONE NASALE DX                                                               ;T.NASALE DX
+L0196   ;TAMPONE URETRALE                                                                ;T.URETRALE
+L0197   ;TAMPONE VAGINALE                                                                ;T.VAGINALE
+L0198   ;TAMPONE RETTALE                                                                 ;T.RETTALE
+L0199   ;TAMPONE CERVICALE                                                               ;T.CERVICALE
+L0200   ;TAMPONE NASALE SX                                                               ;T.NASALE SX
+L0201   ;COLTURA PUS                                                                     ;PUS
+L0202   ;ESAME COLTURALE TAMPONE CONGIUNTIVALE DX                                        ;T.OCULARE DX
+L0203   ;TAMPONE CAVITA ORALE                                                            ;T.CAVO ORALE
+L0204   ;ES.COLTURALE SU TAMPONE LINGUALE                                                ;T.LINGUALE
+L0205   ;TAMPONE AURICOLARE DX                                                           ;T.AURIC.DX
+L0206   ;TAMPONE AURICOLARE SX                                                           ;T.AURIC.SX
+L0208   ;SPERMIOCOLTURA aerobi                                                           ;SPERMIOCOLTURA
+L0209   ;TAMPONE GLANDE                                                                  ;T.GLANDE
+L0210   ;Sg-PIOMBO                                                                       ;CE-T.VIOLA
+L0211   ;U-PIOMBO inizio turno                                                           ;CE-Urine I.T.
+L0212   ;U-CADMIO inizio turno                                                           ;CE-Urine I.T.
+L0213   ;U-CROMO inizio turno                                                            ;CE-Urine I.T.
+L0214   ;U-NICHEL inizio turno                                                           ;CE-Urine I.T.
+L0215   ;Sg-NICHEL                                                                       ;CE-T.VIOLA (PLASMA)
+L0216   ;U-CROMO fine turno                                                              ;CE-Urine F.T.
+L0217   ;U-PIOMBO fine turno                                                             ;CE-Urine F.T.
+L0218   ;U-CADMIO fine turno                                                             ;CE-Urine F.T.
+L0219   ;U-MERCURIO inizio turno                                                         ;CE-Urine I.T.
+L0220   ;Sg-CROMO                                                                        ;CE-T.VIOLA
+L0221   ;Sg-CADMIO ematico                                                               ;CE-T.VIOLA I.T.
+L0222   ;S-ZINCO                                                                         ;T.GIALLO 1
+L0223   ;U-ZINCO inizio turno                                                            ;CE-Urine I.T.
+L0224   ;U-NICHEL fine turno                                                             ;CE-Urine F.T.
+L0225   ;U-STAGNO fine turno                                                             ;CE-Urine F.T.
+L0226   ;U-MANGANESE inizio turno                                                        ;CE-Urine I.T.
+L0227   ;S-MANGANESE                                                                     ;CE-T.BLU
+L0228   ;U-ARSENICO inizio turno                                                         ;CE-Urine I.T.
+L0229   ;U-ANTIMONIO inizio turno                                                        ;CE-Urine I.T.
+L0230   ;U-ACIDO MANDELICO inizio turno                                                  ;URINE  IT
+L0231   ;U-ACIDO IPPURICO inizio turno                                                   ;URINE  IT
+L0232   ;U-AMMINE AROMATICHE inizio turno                                                ;CE-Urine I.T.
+L0233   ;U-TIOCIANATI fine turno                                                         ;CE-Urine F.T.
+L0234   ;U-ACIDO METILIPPURICO inizio turno                                              ;URINE  IT
+L0235   ;U-ACIDO MANDELICO fine turno                                                    ;URINE FT
+L0236   ;U-FENOLI inizio turno                                                           ;CE-Urine I.T.
+L0237   ;U-TIOCIANATI inizio turno                                                       ;CE-Urine I.T.
+L0238   ;U-ACIDO OSSALICO inizio turno                                                   ;CE-Urine I.T.
+L0241   ;U-ACIDO TRICLOROACETICO(TCA)inizio turno                                        ;CE-Urine I.T.
+L0242   ;U-TRICLOROETANOLO inizio turno                                                  ;CE-Urine I.T.
+L0243   ;U-MONOMETILFORMAMIDE inizio turno                                               ;CE-Urine I.T.
+L0244   ;S-ALLUMINIO                                                                     ;CE-T.BLU
+L0245   ;U-ALLUMINIO inizio turno                                                        ;CE-Urine I.T.
+L0246   ;U-FENOLI fine turno                                                             ;CE-Urine F.T.
+L0247   ;U-ACIDO FENILGLIOSSILICO inizio turno                                           ;URINE  IT
+L0249   ;U-NITROCOMPOSTI inizio turno                                                    ;CE-Urine I.T.
+L0250   ;U-NITROCOMPOSTI fine turno                                                      ;CE-Urine F.T.
+L0251   ;U-AMMINE AROMATICHE fine turno                                                  ;CE-Urine F.T.
+L0252   ;U-ACIDO IPPURICO fine turno                                                     ;URINE FT
+L0253   ;U-ACIDO METILIPPURICO fine turno                                                ;URINE FT
+L0256   ;S-ETANOLO                                                                       ;CE-T.VIOLA
+L0257   ;U-ETANOLO                                                                       ;CE-Urine I.T.
+L0259   ;U-ALCOOL ISOPROPILICO inizio turno                                              ;CE-Urine I.T.
+L0261   ;U-ALCOOL BUTILICO inizio turno                                                  ;CE-Urine I.T.
+L0263   ;U-ALCOOL ISOBUTILICO inizio turno                                               ;CE-Urine I.T.
+L0264   ;Sg-ACETONE                                                                      ;CE-T.VIOLA
+L0265   ;U-ACETONE inizio turno                                                          ;CE-Urine I.T.
+L0266   ;U-ACETONE fine turno                                                            ;CE-Urine F.T.
+L0267   ;U-METILETILCHETONE inizio turno                                                 ;URINE  IT
+L0268   ;U-METILISOBUTILETILCHETONE (MIBK)I.T.                                           ;CE-Urine I.T.
+L0271   ;U-2,5-ESANDIONE inizio turno                                                    ;URINE IT
+L0272   ;U-2,5-ESANDIONE fine turno                                                      ;URINE FT
+L0274   ;U-ACETATO DI ETILE inizio turno                                                 ;CE-Urine F.T.
+L0275   ;U-ACETATO DI BUTILE inizio turno                                                ;CE-Urine I.T.
+L0276   ;U-ACIDO TRICLOROACETICO (TCA) fine turno                                        ;CE-Urine F.T.
+L0278   ;U-BENZENE inizio turno                                                          ;CE-Urine I.T.
+L0280   ;dU-OSSALATI                                                                     ;SY-Urine 24h
+L0281   ;U-TRICLOROETANOLO fine turno                                                    ;CE-Urine F.T.
+L0283   ;U-METILETILCHETONE fine turno                                                   ;URINE FT
+L0284   ;U-CICLOESANOLO inizio turno                                                     ;CE-Urine I.T.
+L0285   ;U-ACIDO TRANSMUCONICO inizio turno                                              ;URINE  IT
+L0286   ;U-ACIDO TRANSMUCONICO fine turno                                                ;URINE FT
+L0287   ;U-MANGANESE fine turno                                                          ;CE-Urine F.T.
+L0289   ;U-1-IDROSSIPIRENE inizio turno                                                  ;CE-Urine I.T
+L0290   ;Sg-BENZENE                                                                      ;CE-T.VIOLA
+L0291   ;U-COBALTO URINARIO inizio turno                                                 ;CE-Urine I.T
+L0292   ;U-IDROSSIPIRENE fine turno                                                      ;CE-Urine F.T.
+L0293   ;dU-CREATININA                                                                   ;URINE 24 ore
+L0294   ;U-ACIDO ACETICO inizio turno                                                    ;CE-Urine I.T.
+L0295   ;U-PERCLOROETILENE inizio turno                                                  ;CE-Urine I.T
+L0296   ;U-ALLUMINIO fine turno                                                          ;CE-Urine F.T.
+L0297   ;dU-GLUCOSIO                                                                     ;URINE 24 ore
+L0298   ;U-ARSENICO fine turno                                                           ;CE-Urine F.T.
+L0299   ;ETG MATRICE PILIFERA VALENZA LEGALE                                             ;CE-ETG PILIF
+L0300   ;ETG MATRICE PILIFERA VALENZA CLINICA                                            ;CE-ETG PILIF
+L0301   ;U-SCREENING DROGHE D'ABUSO                                                      ;CE-Droghe
+L0309   ;U-PERCLOROETILENE fine turno                                                    ;CE-Urine F.T.
+L0310   ;U-DICLORO METANO fine turno                                                     ;CE-Urine F.T.
+L0314   ;U-1,6 ESAMETILEN-DIAMMINA inizio turno                                          ;CE-Urine I.T.
+L0315   ;U-1,6 ESAMETILEN-DIAMMINA fine turno                                            ;CE-Urine F.T.
+L0316   ;U-2,6 TOLUENDIAMMINA inizio turno                                               ;CE-Urine I.T.
+L0317   ;U-2,6 TOLUENDIAMMINA fine turno                                                 ;CE-Urine F.T.
+L0318   ;U-MONOMETILFORMAMIDE fine turno                                                 ;CE-Urine F.T.
+L0319   ;U-4.4 DIAMINODIFENILMETANO inizio turno                                         ;CE-Urine I.T.
+L0320   ;U-4.4 DIAMINODIFENILMETANO fine turno                                           ;CE-Urine F.T.
+L0321   ;U-TEST DI CONFERMA DROGHE                                                       ;SY- DROGHE
+L0322   ;U-ACETATO DI ETILE fine turno                                                   ;CE-Urine F.T.
+L0323   ;U-TETRAIDROFURANO fine turno                                                    ;CE-Urine F.T.
+L0324   ;U-2,4 TOLUENDIAMMINA inizio turno                                               ;CE-Urine I.T.
+L0325   ;U-2,4 TOLUENDIAMMINA fine turno                                                 ;CE-Urine F.T.
+L0326   ;U-TOLUENE fine turno                                                            ;CE-Urine F.T.
+L0327   ;U-METANOLO inizio turno                                                         ;CE-Urine I.T.
+L0329   ;DROGHE D'ABUSO SUL CAPELLO                                                      ;CE-DRUG CAPEL
+L0330   ;U-DOSAGGIO DROGHE D'ABUSO                                                       ;CE-Drug urine
+L0331   ;U-ZINCO fine turno                                                              ;CE-Urine F.T.
+L0332   ;U-COBALTO fine turno                                                            ;CE-Urine F.T.
+L0333   ;U-RAME fine turno                                                               ;CE-Urine F.T.
+L0336   ;U-ALCOOL ISOPROPILICO fine turno                                                ;CE-Urine F.T.
+L0338   ;U-DICLORO METANO inizio turno                                                   ;CE-Urine I.T.
+L0339   ;U-TETRAIDROFURANO inizio turno                                                  ;CE-Urine I.T.
+L0340   ;U-XILENE inizio turno                                                           ;CE-Urine I.T.
+L0341   ;U-TOLUENE inizio turno                                                          ;CE-Urine I.T.
+L0342   ;U-ORTO-CRESOLO inizio turno                                                     ;CE-Urine I.T.
+L0344   ;U-RAME inizio turno                                                             ;CE-Urine I.T.
+L0345   ;U-ANTIMONIO fine turno                                                          ;CE-Urine F.T.
+L0346   ;S-ANTICORPI ANTI BARTONELLA HENSELAE IgG                                        ;SY-T.GIALLO
+L0348   ;S-COENZIMA Q10                                                                  ;SY-T.viola
+L0349   ;U-ACIDO FENILGLIOSSILICO fine turno                                             ;URINE FT
+L0350   ;U-ACETATO DI BUTILE fine turno                                                  ;CE-Urine F.T.
+L0351   ;U-ALCOOL ISOBUTILICO fine turno                                                 ;CE-Urine F.T.
+L0352   ;U-ALCOOL BUTILICO fine turno                                                    ;CE-Urine F.T.
+L0353   ;U-CICLOESANOLO fine turno                                                       ;CE-Urine F.T.
+L0356   ;U-ORTO-CRESOLO fine turno                                                       ;CE-Urine F.T.
+L0357   ;S-ANTICORPI ANTI BARTONELLA HENSELAE IgM                                        ;SY-T.GIALLO
+L0358   ;P-TROPONINA I ALTA SENSIBILITA'                                                 ;T.VERDE CONG
+L0359   ;S-ANTICORPI ANTI PROTEINASI 3-PR3(cANCA)                                        ;T.GIALLO 2
+L0360   ;S-A.ANTI MIELOPEROSSIDASI-MPO(pANCA)                                            ;T.GIALLO 2
+L0362   ;Sg-SELENIO                                                                      ;CE-T.VIOLA
+L0363   ;S-ANTICORPI ANTI TRANSGLUTAMINASI Reflex                                        ;T.GIALLO
+L0363   ;S-ANTICORPI ANTI TRANSGLUTAMINASI Reflex                                        ;T.GIALLO
+L0364   ;S-A.ANTI SACCHAROMYCES CEREVISIAE IgG                                           ;SY-T.GIALLO
+L0365   ;S-A.ANTI SACCHAROMYCES CEREVISIAE IgA                                           ;SY-T.GIALLO
+L0366   ;S-A.ANTI LISTERIA IgG (Listeriolisina O)                                        ;SY-T.GIALLO
+L0367   ;S-SEROTONINA                                                                    ;SY-T.GIALLO CONG
+L0368   ;U-ETILGLUCURONIDE                                                               ;CE- ETG Urine
+L0369   ;S-INTERLEUCHINA 6 (IL-6)                                                        ;SY-T.GIALLO CONG
+L0370   ;S-ANTICORPI ANTI ADENOVIRUS IgM                                                 ;SY-T.GIALLO
+L0371   ;S-CA 50                                                                         ;SY-T.GIALLO
+L0372   ;Sg-VITAMINA B2(FAD)                                                             ;Viola Cong Buio
+L0373   ;S-TELOPEPTIDE C (CTX)                                                           ;T.GIALLO 2
+L0374   ;S-CRIOGLOBULINE                                                                 ;SY-T.GIALLO 37gradi
+L0375   ;S-IMMUNOGLOBULINE IgG SOTTOCLASSE 1                                             ;SY-T.GIALLO
+L0376   ;S-VITAMINA D 1,25 DIIDROSSI                                                     ;SY-T.GIALLO
+L0377   ;Sg-TACROLIMUS (FK506)                                                           ;SY-T.Viola
+L0378   ;S-INDICE PHI(Indice salute prostata)                                            ;SY-T.GIALLO
+L0379   ;U-MIOGLOBINA                                                                    ;SY-Urine
+L0381   ;S-CA 72-4                                                                       ;SY-T.GIALLO
+L0382   ;S-CALCIO IONIZZATO                                                              ;T.GIALLO
+L0384   ;S-ANTICORPI ANTI SURRENE                                                        ;SY-T.GIALLO
+L0385   ;S-ANTICORPI ANTI ROSOLIA AVIDITY                                                ;T.GIALLO 2
+L0388   ;S-LEVETIRACETAM                                                                 ;T.GIALLO CONG
+L0392   ;S-FOSFOLIPIDI                                                                   ;SY-T.GIALLO
+L0393   ;S-COLESTEROLO TOTALE                                                            ;T.GIALLO
+L0394   ;S-COLESTEROLO HDL                                                               ;T.GIALLO
+L0394   ;S-COLESTEROLO HDL                                                               ;T.GIALLO
+L0396   ;P-OMOCISTEINA                                                                   ;T.VIOLA CONG
+L0397   ;S-APOLIPOPROTEINA A1                                                            ;SY-T.GIALLO
+L0398   ;S-APOLIPOPROTEINA B                                                             ;SY-T.GIALLO
+L0399   ;S-LIPOPROTEINA (a)                                                              ;SY-T.GIALLO
+L0400   ;S-TNF (TUMOR NECROSIS FACTOR)                                                   ;SY-T.GIALLO CONG
+L0401   ;eGFR Velocit… di Filtrazione Glomerulare                                        ;T.GIALLO
+L0405   ;U-ACIDO ACETICO fine turno                                                      ;CE-Urine F.T.
+L0409   ;S-COLESTEROLO LDL (determinazione dir.)                                         ;T.GIALLO
+L0410   ;LDL OSSIDATE                                                                    ;SY-T.GIALLO CONG
+L0411   ;DAO TEST                                                                        ;SY-T.GIALLO
+L0415   ;S-TIROXINA (T4)                                                                 ;SY-T.GIALLO
+L0420   ;U-LEGIONELLA PNEUMOPHILA ANTIG. SOLUB.                                          ;SY-Urine
+L0421   ;S-ANTI CYTOMEGALOVIRUS ANTICORPI IgG IgM                                        ;T.GIALLO 3
+L0422   ;BORDETELLA ANTICORPI IGG-IGM                                                    ;SY-T.GIALLO
+L0424   ;VIRUS PAROTITE ANTICORPI IgG e IgM                                              ;SY-T.GIALLO
+L0425   ;BARTONELLA RICERCA ANTICORPI IgG e IgM                                          ;SY-T.GIALLO
+L0426   ;BORRELIA ANTICORPI IgG e IgM                                                    ;SY-T.GIALLO
+L0427   ;CHLAMYDOPHILA PNEUMONIAE ANTICORPI IGG-IGM                                      ;SY-T.GIALLO
+L0428   ;CHLAMYDIA TRACHOMATIS ANTICORPI IGG-IGM                                         ;SY-T.GIALLO
+L0429   ;MYCOPLASMA PNEUMONIAE ANTICORPI IgG e IgM                                       ;SY-T.GIALLO
+L0430   ;VIRUS MORBILLO ANTICORPI IGG-IGM                                                ;SY-T.GIALLO
+L0431   ;VIRUS PARVOVIRUS B19 ANTICORPI IgG e IgM                                        ;SY-T.GIALLO
+L0433   ;TAMPONE MOLECOLARE INGLESE ASSOCIATO AL L0965                                   ;
+L0451   ;ANTICORPI ANTI WEST NILE IgG                                                    ;SY-T.GIALLO
+L0452   ;ANTICORPI ANTI WEST NILE IgM                                                    ;SY-T.GIALLO
+L0467   ;ES.CITOLOGICO URINE PER RICERCA CELLULE NEOPLASTICHE SU 3 CAMPIONI IN GG SUCCES.;UR.CITOL X3
+L0474   ;S-HBsAg TEST DI CONFERMA                                                        ;SY-T.GIALLO
+L0477   ;P-ANALISI QUANTITATIVA EPATITE B(HBV)DNA                                        ;SY-T.GIALLO1 CONG
+L0478   ;S-WIDAL-WRIGHT (salmonelle-brucelle ant)                                        ;SY-T.GIALLO
+L0479   ;ESAME CITOLOGICO SECRETO NASALE                                                 ;CIT.SEC.NASO
+L0480   ;ESAME CITOLOGICO ESPETTORATO Campione 3                                         ;ESPETTORATO 3
+L0481   ;ESAME CITOLOGICO (VARI)                                                         ;CITOL. VARI
+L0482   ;S-PSA Reflex                                                                    ;T.GIALLO
+L0483   ;ESAME CITOLOGICO URINARIO Campione 2                                            ;UR.CITOL 2
+L0484   ;ESAME CITOLOGICO ESCREATO campione 2                                            ;ESPETTORATO 2
+L0485   ;S-VIRUS EPATITE DELTA (HDV): ANTICORPI                                          ;SY-T.GIALLO
+L0486   ;S-SIERODIAGNOSI DI WIDAL                                                        ;SY-T.GIALLO
+L0487   ;S-ANTICORPI TOT. ANTI EPATITE A (HAV Ab)                                        ;T.GIALLO 2
+L0488   ;S-ANTICORPI ANTI EPATITE A IgM                                                  ;T.GIALLO 2
+L0489   ;S-ANTIGENE DI SUPERFICIE EP. B (HBsAg)                                          ;T.GIALLO
+L0490   ;S-ANTICORPI ANTI CORE EPATITE B (HBcAb)                                         ;T.GIALLO
+L0491   ;S-A. ANTI CORE EPATITE B IgM (HBcAb IgM)                                        ;T.GIALLO
+L0492   ;S-A. ANTI ENVELOPE EPATITE B (HBeAb)                                            ;T.GIALLO 2
+L0493   ;S-ANTICORPI ANTI SUPERFICIE B (HBsAb)                                           ;T.GIALLO
+L0494   ;S-ANTIGENE ENVELOPE EPATITE B (HBeAg)                                           ;T.GIALLO 2
+L0495   ;S-ANTICORPI ANTI EPATITE C (HCV Ab)                                             ;T.GIALLO
+L0496   ;P-ANALISI QUALITATIVA EPATITE C RNA                                             ;SY-T.GIALLO2 CONG
+L0497   ;ESAME CITOLOGICO URINARIO campione 1                                            ;UR.CITOL 1
+L0498   ;ESAME CITOLOGICO URINARIO campione 3                                            ;UR.CITOL 3
+L0499   ;P-ANALISI QUANTITATIVA EPATITE C RNA                                            ;SY-T.GIALLO2 CONG
+L0500   ;U-ESAME COMPLETO URINE                                                          ;URINE
+L0509   ;SPERMIOGRAMMA                                                                   ;SPERMA
+L0514   ;MICOPLASMI UROGENITALI TAMPONE VAGINALE                                         ;MYCOP. T.VAG.
+L0515   ;MICOPLASMI UROGENITALI TAMPONE URETRALE                                         ;MYCOP. T.UR
+L0516   ;MICOPLASMI UROGENITALI TAMPONE CERVICALE                                        ;MYCOP.T.CERV.
+L0517   ;MICOPLASMI UROGENITALI LIQUIDO SEMINALE                                         ;MYCOP.L.SEM.
+L0525   ;TAMPONE FARINGEO PER S.PYOGENES (SGA)                                           ;T.FAR.STR A
+L0529   ;ESAME COLTURALE SU TAMPONE CUTANEO                                              ;T.CUTANEO
+L0531   ;F-ESAME COLTURALE PER YERSINIA ENTEROCOL                                        ;SY-Feci
+L0532   ;ESAME COLTURALE SU TAMPONE VULVARE                                              ;T.VULVARE
+L0534   ;ESAME COLTURALE                                                                 ;ES.COLTURALE
+L0535   ;ESAME COLTURALE SU TAMPONE ENDOMETRIALE                                         ;SY_COLT.ENDO
+L0536   ;ESAME COLTURALE TAMPONE CONGIUNTIVALE SN                                        ;T.OCULARE SX
+L0537   ;ESAME COLTURALE TAMP.VULVARE PEDIATRICO                                         ;T.VULV.PED.
+L0538   ;PROTEINE URINARIE DELLE 24 H                                                    ;URINE 24 ore
+L0540   ;ESAME COLTURALE SU TAMPONE TONSILLARE                                           ;T.TONSILLARE
+L0542   ;HELICOBACTER PYLORI-Ricerca Ag (Feci)                                           ;FECI Ag HP
+L0544   ;CLOSTRIDIOIDES DIFFICILE RIC.TOSSINA A+B                                        ;FECI
+L0546   ;ADENOVIRUS RICERCA ANTIGENE (FECI)                                              ;FECI
+L0547   ;RICERCA MICETI (FECI)                                                           ;MICETI FECI
+L0548   ;ESAME CITOLOGICO ESPETTORATO                                                    ;ESPETTORATO 1
+L0549   ;METANEFRINE URINARIE 24 H                                                       ;SY-Urine 24h Acid.
+L0551   ;MICOPLASMI UROGENITALI (Ur)                                                     ;MYCOP.URINE
+L0558   ;ESAME CITOLOGICO PER RICERCA SIDEROCITI                                         ;Espett.x Siderociti
+L0560   ;PIRIDINOLINA TOTALE URINE 24 H                                                  ;SY-Urine
+L0562   ;F-SANGUE OCCULTO CAMPIONE 2                                                     ;FECI S.O. 2
+L0563   ;F-RICERCA PARASSITI INTESTINALI (camp.2)                                        ;FECI CAMP 2
+L0564   ;ESAME COLTURALE SU TAMPONE GENGIVALE                                            ;T.GENGIVALE
+L0567   ;F-CALPROTECTINA                                                                 ;FECI CONG
+L0572   ;TAMPONE VAGINALE E RETTALE                                                      ;T.VAG-RETT.
+L0575   ;ANTICORPI ANTI PERTOSSE IgA                                                     ;T.GIALLO 2
+L0576   ;ANTICORPI ANTI PERTOSSE IgG                                                     ;T.GIALLO 2
+L0577   ;ANTICORPI ANTI PERTOSSE IgM                                                     ;SY-T.GIALLO
+L0578   ;ANTICORPI ANTI TOXOPLASMA IgG                                                   ;T.GIALLO 3
+L0579   ;ANTICORPI ANTI TOXOPLASMA IgM                                                   ;T.GIALLO 3
+L0580   ;ANTICORPI ANTI ROSOLIA IgG                                                      ;T.GIALLO 3
+L0581   ;ANTICORPI ANTI ROSOLIA IgM                                                      ;T.GIALLO 3
+L0582   ;ANTICORPI ANTI CYTOMEGALOVIRUS IgG                                              ;T.GIALLO 3
+L0583   ;ANTICORPI ANTI CYTOMEGALOVIRUS IgM                                              ;T.GIALLO 3
+L0584   ;A. ANTI HERPES SIMPLEX TIPO 1 IgG                                               ;T.GIALLO 2
+L0585   ;A. ANTI HERPES SIMPLEX TIPO 2 IgG                                               ;T.GIALLO 2
+L0586   ;A. ANTI HERPES SIMPLEX TIPO 1/2  IgM                                            ;T.GIALLO 2
+L0587   ;ANTICORPI ANTI PAROTITE IgG                                                     ;SY-T.GIALLO
+L0588   ;SIERODIAGNOSI DI WEIL-FELIX                                                     ;SY-T.GIALLO
+L0589   ;ANTICORPI ANTI MORBILLO IgG                                                     ;SY-T.GIALLO
+L0590   ;ANTICORPI ANTI MORBILLO IgM                                                     ;SY-T.GIALLO
+L0591   ;ANTICORPI ANTI VARICELLA ZOSTER IgG                                             ;T.GIALLO 2
+L0592   ;ANTICORPI ANTI VARICELLA IgM                                                    ;T.GIALLO 3
+L0593   ;ANTICORPI ANTI ADENOVIRUS IgG                                                   ;SY-T.GIALLO
+L0594   ;ANTICORPI ANTI CARDIOLIPINA IgA                                                 ;T.GIALLO 2
+L0595   ;ANTICORPI ANTI PAROTITE IGM                                                     ;SY-T.GIALLO
+L0596   ;PRIMIDONE                                                                       ;SY-T.GIALLO
+L0597   ;TOXOPLASMA IgG AVIDITY                                                          ;T.GIALLO 2
+L0599   ;ANTICORPI ANTI TOXOPLASMA IgG/IgM                                               ;T.GIALLO 3
+L0600   ;A.ANTI BETA 2 GLICOPROTEINA 1 IgG                                               ;T.GIALLO 2
+L0601   ;A.ANTI BETA 2 GLICOPROTEINA 1 IgM                                               ;T.GIALLO 2
+L0602   ;A.ANTI BETA 2 GLICOPROTEINA 1 IGA                                               ;T.GIALLO 2
+L0603   ;ALFA 2 MACROGLOBULINA                                                           ;SY-T.GIALLO
+L0605   ;ZONULINA FECALE                                                                 ;SY-Feci
+L0606   ;ROTAVIRUS RICERCA ANTIGENE FECI                                                 ;FECI
+L0607   ;RICERCA OSSIURI-SCOTCH TEST                                                     ;SCOTCH TEST
+L0609   ;BETA 2 MICROGLOBULINE EMATICHE                                                  ;T.GIALLO 2
+L0610   ;BETA 2 MICROGLOBULINE URINE                                                     ;URINE B2
+L0644   ;ANTICORPI ANTI ENA SSA (Ro) 60 kD                                               ;SY-T.GIALLO
+L0645   ;ANTICORPI ANTI ENA SSA (Ro) 52 kD                                               ;SY-T.GIALLO
+L0646   ;INSULINA (3 DETERMINAZIONI)                                                     ;T.GIALLO
+L0647   ;ENA: ANTIGENE ANTI SM/RNP                                                       ;SY-T.GIALLO
+L0648   ;ENA: ANTIGENE ANTI SSB (La)                                                     ;SY-T.GIALLO
+L0649   ;ENA: ANTIGENE ANTI SSA (Ro)                                                     ;SY-T.GIALLO
+L0652   ;ANTICORPI ANTI CHLAMIDIA TRACHOMATIS IgA                                        ;SY-T.GIALLO
+L0653   ;ANTICORPI ANTI CHLAMIDIA TRACHOMATIS IgM                                        ;SY-T.GIALLO
+L0654   ;A. ANTI CHLAMYDOPHILA PNEUMONIAE IgM                                            ;SY-T.GIALLO
+L0655   ;ANTICORPI ANTI ENDOMISIO IgG                                                    ;SY-T.GIALLO
+L0656   ;ANTICORPI ANTI MYCOPLASMA PNEUMONIAE IgM                                        ;T.GIALLO 2
+L0657   ;ENA: ANTIGENE ANTI Sm                                                           ;SY-T.GIALLO
+L0658   ;ENA:  ANTIGENE ANTI JO1                                                         ;SY-T.GIALLO
+L0659   ;ENA: ANTIGENE ANTI SCL-70                                                       ;SY-T.GIALLO
+L0660   ;DOPAMINA                                                                        ;SY-T.Viola CONG
+L0661   ;VITAMINA B12                                                                    ;T.GIALLO
+L0662   ;FOLATI                                                                          ;T.GIALLO
+L0663   ;ACIDI BILIARI                                                                   ;SY-T.GIALLO
+L0664   ;ANTICORPI ANTI CHLAMIDIA TRACHOMATIS IgG                                        ;SY-T.GIALLO
+L0665   ;ANTICORPI ANTI CELLULE PARIETALI (APCA)                                         ;T.GIALLO 2
+L0666   ;ANTICORPI ANTI HIV 1-2                                                          ;T.GIALLO
+L0667   ;ANTICORPI ANTI TRANSGLUTAMINASI IgA                                             ;T.GIALLO 2
+L0668   ;HCV TEST DI CONFERMA (WB)                                                       ;T.GIALLO 2
+L0669   ;ALDOSTERONE URINE 24 H                                                          ;SY-Urine 24h
+L0671   ;HIV1/HIV2 RIBA (Test di conferma)                                               ;T.GIALLO 2
+L0672   ;ANTICOAGULANTE LUPUS-LIKE (LAC)                                                 ;SY-T.Azz. CONG
+L0673   ;INIBINA B                                                                       ;SY-T.GIALLO CONG
+L0675   ;A.ANTI MICROSOMI EPATICI E RENALI (LKMA)                                        ;T.GIALLO 2
+L0676   ;CERULOPLASMINA                                                                  ;SY-T.GIALLO
+L0677   ;Immunocomplessi circolanti                                                      ;SY-T.GIALLO
+L0678   ;ANTICORPI ANTI TREPONEMA PALLIDUM IgM                                           ;SY-T.GIALLO
+L0679   ;ANTICORPI ANTI TREPONEMA PALLIDUM IgG                                           ;SY-T.GIALLO
+L0681   ;ALFA 1 ANTITRIPSINA                                                             ;SY-T.GIALLO
+L0682   ;ANGIOTENSIN CONVERTING ENZYME (ACE)                                             ;SY-T.GIALLO
+L0683   ;ANTICORPI ANTI TOSSINA TETANICA                                                 ;T.GIALLO 3
+L0684   ;ANTICORPI ANTI HELICOBACTER IgG                                                 ;T.GIALLO 2
+L0685   ;A.ANTI LEGIONELLA PNEUMOPHILA (IgG+IgM)                                         ;SY-T.GIALLO
+L0686   ;ANTICORPI ANTI CARDIOLIPINA IgG                                                 ;T.GIALLO 2
+L0687   ;ANTICORPI ANTI CARDIOLIPINA IgM                                                 ;T.GIALLO 2
+L0688   ;ANTICORPI ANTI MUSCOLO STRIATO                                                  ;SY-T.GIALLO
+L0689   ;ANTICORPI ANTI MUSCOLO LISCIO                                                   ;SY-T.GIALLO
+L0690   ;ANTICORPI ANTI MITOCONDRI (AMA)                                                 ;T.GIALLO 2
+L0691   ;ANTICORPI ANTI MYCOPLASMA PNEUMONIAE IgG                                        ;T.GIALLO 2
+L0692   ;A. ANTI CHLAMYDOPHILA PNEUMONIAE IgG                                            ;SY-T.GIALLO
+L0693   ;ANTICORPI ANTI DNA NATIVO                                                       ;T.GIALLO 2
+L0694   ;INSULINA 4 DET.                                                                 ;T.GIALLO INS
+L0695   ;ANTICORPI ANTI ENA ab (screening)                                               ;T.GIALLO 2
+L0696   ;ANTICORPI ANTI NUCLEO ab screening (ANA)                                        ;T.GIALLO 2
+L0697   ;ANTICORPI ANTI ENDOMISIO IgA                                                    ;SY-T.GIALLO
+L0698   ;ANTICORPI ANTI GLIADINA DEAMIDATA IgG                                           ;T.GIALLO 2
+L0699   ;ANTICORPI ANTI GLIADINA DEAMIDATA IgA                                           ;T.GIALLO 2
+L0700   ;ACTH 2 determinazioni                                                           ;T.VIOLA CONG
+L0701   ;ACTH                                                                            ;T.VIOLA CONG
+L0702   ;ALDOSTERONE IN ORTOSTATISMO                                                     ;SY-T.Viola CONG
+L0703   ;DIIDROTESTOSTERONE (DHT)                                                        ;SY-T.GIALLO
+L0704   ;ESTRIOLO Libero                                                                 ;SY-T.GIALLO
+L0705   ;ESTRONE (E1)                                                                    ;SY-T.GIALLO
+L0707   ;SHBG (GLOB.LEGANTE ORMONI SESSUALI)                                             ;SY-T.GIALLO
+L0708   ;TBG (GLOBULINA LEGANTE LA TIROXINA)                                             ;SY-T.GIALLO
+L0709   ;DELTA 4 ANDROSTENEDIONE                                                         ;SY-T.GIALLO
+L0710   ;BETA HCG ematico                                                                ;T.GIALLO
+L0711   ;PARATORMONE (PTH)                                                               ;T.GIALLO CONG
+L0712   ;FREE-T3 (TRIODOTIRONINA LIBERA)                                                 ;T.GIALLO
+L0713   ;FREE-T4 (TIROXINA LIBERA)                                                       ;T.GIALLO
+L0714   ;TSH (TIREOTROPINA)                                                              ;T.GIALLO
+L0715   ;FSH (FOLLITROPINA)                                                              ;T.GIALLO
+L0716   ;LH (LUTEOTROPINA))                                                              ;T.GIALLO
+L0717   ;ESTRADIOLO (E2)                                                                 ;T.GIALLO
+L0718   ;PROGESTERONE                                                                    ;T.GIALLO
+L0719   ;TESTOSTERONE TOTALE                                                             ;T.GIALLO
+L0720   ;PROLATTINA                                                                      ;T.GIALLO
+L0721   ;PROLATTINA (2 DET)                                                              ;T.GIALLO
+L0722   ;CORTISOLO                                                                       ;T.GIALLO
+L0723   ;CORTISOLO (2 determinazioni)                                                    ;T.GIALLO
+L0724   ;PROLATTINA (4 det)                                                              ;T.GIALLO
+L0725   ;INSULINA (curva da carico fino a 5 det.)                                        ;T.GIALLO INS
+L0726   ;ANTICORPI ANTI TIREOGLOBULINA (ABTG)                                            ;T.GIALLO
+L0727   ;GASTRINA                                                                        ;SY-T.GIALLO CONG
+L0728   ;INSULINA basale                                                                 ;T.GIALLO INS
+L0729   ;RENINA DIRETTA IN CLINOSTATISMO                                                 ;SY-T.Viola CONG
+L0730   ;OSTEOCALCINA                                                                    ;T.GIALLO CONG
+L0731   ;DHEA                                                                            ;SY-T.GIALLO CONG
+L0732   ;ANTICORPI ANTI RECETTORI TSH                                                    ;T.GIALLO 2
+L0733   ;17 ALFA IDROSSIPROGESTERONE (17 OH-P)                                           ;T.GIALLO CONG
+L0734   ;ANTICORPI ANTI TIREOPEROSSIDASI (AB TPO)                                        ;T.GIALLO
+L0735   ;TIREOGLOBULINA (TG)                                                             ;T.GIALLO
+L0736   ;DHEA-S                                                                          ;T.GIALLO 3
+L0737   ;TESTOSTERONE LIBERO                                                             ;T.GIALLO 2
+L0738   ;ALDOSTERONE IN CLINOSTATISMO                                                    ;SY-T.Viola CONG
+L0740   ;MICROALBUMINURIA                                                                ;URINE
+L0741   ;CORTISOLO urinario                                                              ;SY-Urine 24h
+L0742   ;CALCITONINA                                                                     ;T.GIALLO 3
+L0743   ;APTOGLOBINA                                                                     ;SY-T.GIALLO
+L0744   ;FOSFATASI ACIDA PROSTATICA (PAP)                                                ;SY-T.GIALLO CONG
+L0745   ;PSA TOTALE                                                                      ;T.GIALLO
+L0746   ;PSA libero                                                                      ;T.GIALLO
+L0747   ;ANTIGENE CARBOIDRATICO 15.3 (CA 15.3)                                           ;T.GIALLO
+L0748   ;ANTIGENE CARBOIDRATICO 125 (CA  125)                                            ;T.GIALLO
+L0749   ;ANTIGENE CARBOIDRATICO 19.9 (CA 19.9)                                           ;T.GIALLO
+L0750   ;ANTIGENE CARCINO EMBRIONARIO (CEA)                                              ;T.GIALLO
+L0751   ;ALFA 1 FETOPROTEINA                                                             ;T.GIALLO 2
+L0752   ;ANTIGENE POLIPEPTIDICO TISSUTALE (TPA)                                          ;SY-T.GIALLO
+L0753   ;NSE (ENOLASI NEURONALE SPECIFICA)                                               ;SY-T.GIALLO
+L0754   ;CYFRA 21-1                                                                      ;SY-T.GIALLO
+L0755   ;PROLATTINA (3 DET)                                                              ;T.GIALLO
+L0756   ;RENINA DIRETTA IN ORTOSTATISMO                                                  ;SY-T.Viola CONG
+L0757   ;ACIDO 5 OH-INDOLACETICO URINE 24 H                                              ;SY-Urine 24h Acid.
+L0758   ;VITAMINA C (ACIDO ASCORBICO)                                                    ;T.AZZUR.CongBuio
+L0759   ;PEPTIDE C                                                                       ;T.GIALLO 2
+L0760   ;DIGOSSINA                                                                       ;SY-T.GIALLO
+L0761   ;FENOBARBITALE                                                                   ;T.GIALLO 1
+L0762   ;CARBAMAZEPINA                                                                   ;T.GIALLO 1
+L0763   ;FENITOINA                                                                       ;SY-T.GIALLO
+L0764   ;ACIDO VALPROICO                                                                 ;T.GIALLO 1
+L0765   ;CICLOSPORINA                                                                    ;SY-T.Viola
+L0766   ;TEOFILLINA                                                                      ;SY-T.GIALLO
+L0767   ;ETOSUCCIMIDE                                                                    ;SY-T.GIALLO CONG
+L0768   ;CISTATINA C                                                                     ;SY-T.GIALLO
+L0769   ;MICROALBUMINURIA URINE 24 H                                                     ;URINE 24 ore
+L0770   ;CICLOSPORINA 2 DETERMINAZIONI                                                   ;SY-T.Viola
+L0771   ;ANTICORPI ANTI TRANSGLUTAMINASI IgG                                             ;T.GIALLO 2
+L0772   ;ORMONE ANTI MULLERIANO (AMH)                                                    ;T.GIALLO CONG
+L0773   ;A. ANTI GLUTAMMICO DECARBOSSILASI (GAD)                                         ;SY-T.GIALLO Cong
+L0774   ;ANTICORPI ANTI INSULINA                                                         ;SY-T.GIALLO CONG
+L0776   ;ORMONE SOMATOTROPO (HGH)                                                        ;T.GIALLO CONG
+L0777   ;ORMONE SOMATOTROPO (HGH) 2 DET.                                                 ;T.GIALLO CONG
+L0778   ;PEPTIDE NATRIURETICO B (BNP)                                                    ;T.VIOLA CONG
+L0779   ;ANTICORPI ANTI CITRULLINA (CCP)                                                 ;T.GIALLO 2
+L0780   ;TSH RIFLESSO                                                                    ;T.GIALLO
+L0781   ;ACTH 3 determinazioni                                                           ;T.VIOLA CONG
+L0781   ;ACTH 3 determinazioni                                                           ;T.VIOLA CONG
+L0782   ;CORTISOLO 3 DET.                                                                ;T.GIALLO
+L0783   ;A. ANTI-BORRELIA BURGDORFERI IgG                                                ;SY-T.GIALLO
+L0784   ;A. ANTI-BORRELIA BURGDORFERI IgM                                                ;SY-T.GIALLO
+L0785   ;ANTICORPI ANTI RETICOLINA                                                       ;SY-T.GIALLO
+L0786   ;ANTICORPI ANTI DIFTERITE                                                        ;SY-T.GIALLO
+L0789   ;CROMOGRANINA A                                                                  ;SY-T.GIALLO CONG
+L0790   ;DOSAGGIO CATENE LEGGERE KAPPA LAMBDA URINARIE                                   ;SY-Urine 24 Nef
+L0791   ;DOSAGGIO CATENE LEGGERE KAPPA LAMBDA SIERICHE                                   ;SY-T.GIALLO
+L0792   ;ANTICORPI ANTI PIASTRINE                                                        ;SY-T.GIALLO
+L0793   ;ANTICORPI ANTI RECETTORI ACETILCOLINA                                           ;SY-T.GIALLO
+L0795   ;FRAZIONE C1Q DEL COMPLEMENTO                                                    ;SY-T.GIALLO
+L0796   ;MONOIDROSSICARBAZEPINA                                                          ;SY-T.GIALLO CONG
+L0797   ;VITAMINA A                                                                      ;T.Viola CongBuio
+L0798   ;VITAMINA E                                                                      ;T.Viola CongBuio
+L0800   ;A. ANTI CHLAMYDOPHILA PNEUMONIAE IgA                                            ;SY-T.GIALLO
+L0801   ;PEPTIDE C (2 DET.)                                                              ;T.GIALLO 2
+L0802   ;INSULINA (2 DET.)                                                               ;T.GIALLO INS
+L0803   ;ESCHERICHIA COLI O:157 ESAME COLTURALE                                          ;SY-Feci(*VERDE)
+L0804   ;A. ANTI CYTOMEGALOVIRUS AVIDITY                                                 ;
+L0805   ;COMPLEMENTO (C1 INIBITORE)                                                      ;SY-T.GIALLO
+L0806   ;TRANSFERRINA CARBOIDRATO CARENTE (CDT)                                          ;T.ROSSO CDT
+L0807   ;VITAMINA D (25 OH)                                                              ;T.GIALLO 2
+L0808   ;QUANTIFERON                                                                     ;T.VERDE
+L0810   ;A.ANTI INSULA (ICA)                                                             ;SY-T.GIALLO
+L0812   ;VITAMINA B1                                                                     ;T.Viola CongBuio
+L0813   ;VITAMINA B6                                                                     ;T.Viola CongBuio
+L0814   ;ANTICORPI ANTI BRUCELLA (metodo WRIGHT)                                         ;SY-T.GIALLO
+L0815   ;DESOSSIPIRIDINOLINA URINE 24 H                                                  ;SY-Urine 24h
+L0816   ;SOMATOMEDINA C (IGF-1)                                                          ;T.GIALLO CONG
+L0817   ;ANDROSTENEDIOLO GLUCURONIDE                                                     ;SY-T.GIALLO Cong
+L0818   ;ALFA 1 MICROGLOBULINA                                                           ;SY-Urine 
+L0822   ;ANTICORPI ANTI CENTROMERO CENP-B                                                ;SY-T.GIALLO
+L0823   ;CITRATO URINARIO 24H                                                            ;SY-Urine 24h
+L0824   ;ESTRIOLO (E3)                                                                   ;SY-T.GIALLO
+L0825   ;ANTICORPI ANTI PARVOVIRUS B19 IgG                                               ;SY-T.GIALLO
+L0826   ;ANTICORPI ANTI PARVOVIRUS B19 IgM                                               ;SY-T.GIALLO
+L0827   ;NT-Pro BNP                                                                      ;T.GIALLO Cong BNP
+L0829   ;PREALBUMINA                                                                     ;SY-T.GIALLO
+L0831   ;ESAME ISTOLOGICO                                                                ;ISTOLOGICO
+L0832   ;HIV 1 RNA QUANTITATIVO                                                          ;SY-T.VIOLA CONG
+L0833   ;ANTICORPI ANTI MAG (GLICOP. MIELINA)                                            ;SY-T.GIALLO CONG
+L0834   ;A. ANTI GANGLIOSIDI Profilo completo IgG                                        ;SY-T.GIALLO
+L0835   ;A. ANTI GANGLIOSIDI Profilo completo IgM                                        ;SY-T.GIALLO
+L0836   ;FATTORE VII (PROCONVERTINA)                                                     ;SY-T.Azzurro CONG
+L0838   ;ANTICORPI ANTI CUTE                                                             ;SY-T.GIALLO
+L0840   ;BITEST                                                                          ;GE-T.GIALLO
+L0841   ;A.ANTI HTLV I/II SCREENING                                                      ;SY-T.GIALLO
+L0842   ;HLA B27 DNA                                                                     ;T.VIOLA
+L0843   ;LAMOTRIGINA                                                                     ;SY-T.GIALLO CONG
+L0846   ;BIOPSIA ENDOMETRIALE                                                            ;ISTOLOGICO
+L0848   ;SOMA HERCEP-TEST (HER2)                                                         ;ISTOLOGICO
+L0849   ;PARASSITI Feci dopo concentraz camp. 2                                          ;FECI CAMP 2
+L0850   ;PARASSITI Feci dopo concentraz camp.3                                           ;FECI CAMP 3
+L0852   ;Synlab_Prest per FOSFATASI ALCALINA                                             ;SY-T.GIALLO
+L0854   ;Synlab S.Stupefacenti Amministrativo                                            ;
+L0920   ;D-DIMERO                                                                        ;T.AZZURRO DID.
+L0922   ;INDICE HOMA                                                                     ;T.GIALLO
+L0924   ;A. ANTI VIRUS COXSACKIE A IgG TOTALI                                            ;SY-T.GIALLO
+L0925   ;A. ANTI VIRUS COXSACKIE B IgG TOTALI                                            ;SY-T.GIALLO
+L0926   ;DISBIOSI TEST                                                                   ;Urine Disbiosi
+L0928   ;GASTROPROFILE                                                                   ;SY-T.GIALLO CONG
+L0929   ;ESAME COLTURALE PER RICERCA MICETI                                              ;MICETI
+L0930   ;ANTICORPI ANTI ISTONI                                                           ;SY-T.GIALLO
+L0931   ;PROCALCITONINA                                                                  ;SY-T.GIALLO
+L0932   ;HE4                                                                             ;SY-T.GIALLO
+L0934   ;DOSAGGIO CATENE LEGGERE LIBERE K E LAMBDA URINARIE (24 H)                       ;SY-Urine 24
+L0935   ;FATTORE DELLA COAGULAZIONE VIIIc                                                ;SY-T.Azzurro CONG
+L0936   ;VON WILLEBRAND ATTIVITA'                                                        ;SY-T.Azzurro CONG
+L0937   ;METABOLITI REATTIVI OSSIGENO                                                    ;SY-T.GIALLO
+L0938   ;POTENZIALE BIOLOG.ANTIOSSIDANTE                                                 ;SY-T.GIALLO
+L0939   ;FATTORE DELLA COAGULAZIONE II                                                   ;SY-T.Azzurro CONG
+L0940   ;FATTORE DELLA COAGULAZIONE V (proacc.)                                          ;SY-T.Azzurro CONG
+L0941   ;RIC.STREPTOCOCCUS PNEUMONIAE URINARIO-AG                                        ;SY-Urine
+L0943   ;ANTICORPI ANTI FATTORE INTRINSECO                                               ;SY-T.GIALLO
+L0944   ;IMMUNOGLOBULINE IgG SOTTOCLASSE 2                                               ;SY-T.GIALLO
+L0945   ;IMMUNOGLOBULINE IgG SOTTOCLASSE 3                                               ;SY-T.GIALLO
+L0946   ;IMMUNOGLOBULINE IgG SOTTOCLASSE 4                                               ;SY-T.GIALLO
+L0948   ;RECETTORI INTERLEUCHINA 2 (IL2R)                                                ;SY-T.GIALLO
+L0957   ;ANTICORPI ANTI DNASI B                                                          ;SY-T.GIALLO
+L0959   ;NORMETANEFRINE URINE 24 H                                                       ;SY-Urine 24h Acid.
+L0965   ;TAMPONE SARS-COV-2 RNA                                                          ;SY-T.MOLEC.COVS
+L0967   ;TEST RAPIDO ANTIGENICO COVID-19                                                 ;T.RAPIDO COVS
+L0969   ;A. ANTI SARS-COV-2 IgG QUANTITATIVI                                             ;SY-T.GIALLO
+L0974   ;CATENE LEGGERE LIBERE  KAPPA E LAMBDA s.                                        ;SY-T.GIALLO
+L1001   ;DERMATOPHAGOIDES PTERONYS (D1)                                                  ;T.GIALLO IgE
+L1002   ;DERMATOPHAGOIDES FARINAE (D2)                                                   ;T.GIALLO IgE
+L1003   ;LEPIDOGLYPHIS DESTRUCTOR (D71)                                                  ;T.GIALLO IgE
+L1004   ;ACARUS SIRO (D70)                                                               ;T.GIALLO IgE
+L1005   ;TYROFAGUS PUTRESCENTIAE (D72)                                                   ;T.GIALLO IgE
+L1006   ;EUROGLYPHUS MAYNEI (D74)                                                        ;T.GIALLO IgE
+L1007   ;GLYCYPHAGUS DOMESTICUS (D73)                                                    ;T.GIALLO IgE
+L1021   ;EPITELIO DI GATTO (E1)                                                          ;T.GIALLO IgE
+L1023   ;FORFORA DI CAVALLO (E3)                                                         ;T.GIALLO IgE
+L1025   ;FORFORA/EPITELIO  DI CANE (E5)                                                  ;T.GIALLO IgE
+L1028   ;PIUMA D'OCA (E70)                                                               ;T.GIALLO IgE
+L1040   ;EPITELIO DI CONIGLIO (E82)                                                      ;T.GIALLO IgE
+L1042   ;EPITELIO DI CRICETO (E84)                                                       ;T.GIALLO IgE
+L1061   ;BIANCO D'UOVO (F1)                                                              ;T.GIALLO IgE
+L1062   ;LATTE (F2)                                                                      ;T.GIALLO IgE
+L1063   ;MERLUZZO Pesce (F3)                                                             ;T.GIALLO IgE
+L1064   ;GRANO (F4)                                                                      ;T.GIALLO IgE
+L1065   ;SEGALE (F5)                                                                     ;T.GIALLO IgE
+L1066   ;ORZO (F6)                                                                       ;SY-T.GIALLO
+L1067   ;AVENA (F7)                                                                      ;T.GIALLO IgE
+L1068   ;GRANOTURCO Mais (F8)                                                            ;T.GIALLO IgE
+L1069   ;RISO (F9)                                                                       ;T.GIALLO IgE
+L1070   ;SEME DI SESAMO (F10)                                                            ;T.GIALLO IgE
+L1071   ;GRANO SARACENO (F11)                                                            ;T.GIALLO IgE
+L1072   ;PISELLO (F12)                                                                   ;T.GIALLO IgE
+L1073   ;ARACHIDE (F13)                                                                  ;T.GIALLO IgE
+L1074   ;SEME DI SOIA (F14)                                                              ;T.GIALLO IgE
+L1076   ;NOCCIOLA (F17)                                                                  ;T.GIALLO IgE
+L1077   ;NOCE BRASILIANA (F18)                                                           ;T.GIALLO IgE
+L1078   ;MANDORLA (F20)                                                                  ;T.GIALLO IgE
+L1080   ;GAMBERO (F24)                                                                   ;T.GIALLO IgE
+L1081   ;POMODORO (F25)                                                                  ;T.GIALLO IgE
+L1082   ;CARNE di MAIALE (F26)                                                           ;T.GIALLO IgE
+L1083   ;BUE (F27)                                                                       ;T.GIALLO IgE
+L1084   ;CAROTA (F31)                                                                    ;T.GIALLO IgE
+L1085   ;ARANCIA (F33)                                                                   ;T.GIALLO IgE
+L1086   ;PATATA (F35)                                                                    ;T.GIALLO IgE
+L1088   ;MITILI (F37)                                                                    ;T.GIALLO IgE
+L1089   ;TONNO (F40)                                                                     ;T.GIALLO IgE
+L1090   ;SALMONE (F41)                                                                   ;T.GIALLO IgE
+L1091   ;FRAGOLA (F44)                                                                   ;T.GIALLO IgE
+L1092   ;LIEVITO Sacc.cerev. (F45)                                                       ;T.GIALLO IgE
+L1093   ;AGLIO (F47)                                                                     ;T.GIALLO IgE
+L1094   ;CIPOLLA (F48)                                                                   ;T.GIALLO IgE
+L1095   ;MELA (F49)                                                                      ;T.GIALLO IgE
+L1100   ;TUORLO D'UOVO (F75)                                                             ;T.GIALLO IgE
+L1101   ;Alfa LATTOALBUMINA (F76)                                                        ;T.GIALLO IgE
+L1102   ;Beta LATTOGLOBULINA (F77)                                                       ;T.GIALLO IgE
+L1103   ;CASEINA (F78)                                                                   ;T.GIALLO IgE
+L1104   ;GLUTINE (F79)                                                                   ;T.GIALLO IgE
+L1106   ;FORMAGGIO DOLCE (F81)                                                           ;T.GIALLO IgE
+L1107   ;FORMAGGIO FERMENTATO (F82)                                                      ;T.GIALLO IgE
+L1108   ;POLLO (F83)                                                                     ;T.GIALLO IgE
+L1109   ;KIWI (F84)                                                                      ;T.GIALLO IgE
+L1110   ;SEDANO (F85)                                                                    ;T.GIALLO IgE
+L1111   ;PREZZEMOLO (F86)                                                                ;T.GIALLO IgE
+L1112   ;MELONE (F87)                                                                    ;T.GIALLO IgE
+L1114   ;SENAPE (F89)                                                                    ;T.GIALLO IgE
+L1115   ;MALTO (F90)                                                                     ;T.GIALLO IgE
+L1117   ;BANANA (F92)                                                                    ;T.GIALLO IgE
+L1118   ;CACAO (F93)                                                                     ;T.GIALLO IgE
+L1119   ;PERA (F94)                                                                      ;T.GIALLO IgE
+L1120   ;PESCA (F95)                                                                     ;T.GIALLO IgE
+L1127   ;VONGOLA (F207)                                                                  ;T.GIALLO IgE
+L1130   ;ANANAS (F210)                                                                   ;T.GIALLO IgE
+L1131   ;FUNGO (F212)                                                                    ;T.GIALLO IgE
+L1132   ;CILIEGIA (F242)                                                                 ;SY-T.GIALLO
+L1139   ;CAFFE' (F221)                                                                   ;T.GIALLO IgE
+L1147   ;ALBICOCCA (F237)                                                                ;T.GIALLO IgE
+L1152   ;PRUGNA (F255)                                                                   ;SY-T.GIALLO
+L1153   ;NOCE (F256)                                                                     ;T.GIALLO IgE
+L1154   ;UVA (F259)                                                                      ;T.GIALLO IgE
+L1160   ;TROTA (F204)                                                                    ;SY-T.GIALLO
+L1161   ;POLPO (F59)                                                                     ;T.GIALLO IgE
+L1162   ;MELANZANA (F262)                                                                ;T.GIALLO IgE
+L1164   ;ASTICE/ARAGOSTA (F80)                                                           ;T.GIALLO IgE
+L1165   ;GRANCHIO (F23)                                                                  ;T.GIALLO IgE
+L1166   ;SIERO DI LATTE (F236)                                                           ;T.GIALLO IgE
+L1167   ;MANGO (F91)                                                                     ;SY-T.GIALLO
+L1168   ;VANIGLIA (F234)                                                                 ;SY-T.GIALLO
+L1169   ;LAMPONE (F343)                                                                  ;SY-T.GIALLO
+L1170   ;THE (F222)                                                                      ;T.GIALLO IgE
+L1171   ;MIRTILLO NERO (F288)                                                            ;T.GIALLO IgE
+L1172   ;NOCE DI COCCO (F36)                                                             ;SY-T.GIALLO
+L1173   ;PAPAYA (F293)                                                                   ;T.GIALLO IgE
+L1174   ;SPINACI (F214)                                                                  ;T.GIALLO IgE
+L1175   ;PINOLI (F253)                                                                   ;T.GIALLO IgE
+L1176   ;FRUTTO DELLA PASSIONE (F294)                                                    ;T.GIALLO IgE
+L1177   ;ANACARDI (F202)                                                                 ;T.GIALLO IgE
+L1178   ;FAGIOLO (F15)                                                                   ;T.GIALLO IgE
+L1179   ;PISTACCHIO (F203)                                                               ;T.GIALLO IgE
+L1182   ;CALAMARO (F258)                                                                 ;T.GIALLO IgE
+L1184   ;CARNE DI TACCHINO (F284)                                                        ;T.GIALLO IgE
+L1195   ;OLIVA (F342)                                                                    ;T.GIALLO IgE
+L1199   ;CASTAGNA (F299)                                                                 ;T.GIALLO IgE
+L1232   ;ERBA CANINA Cynodon dactylon (G2)                                               ;T.GIALLO IgE
+L1233   ;ERBA MAZZOLINA Dactylis glom. (G3)                                              ;T.GIALLO IgE
+L1235   ;LOLIUM PERENNE Logliarello (G5)                                                 ;T.GIALLO IgE
+L1236   ;CODOLINA (G6)                                                                   ;T.GIALLO IgE
+L1237   ;CANNA DI PALUDE (G7)                                                            ;T.GIALLO IgE
+L1238   ;GRAMIGNA PRATI Poa pratensis (G8)                                               ;T.GIALLO IgE
+L1242   ;SEGALE (G12)                                                                    ;T.GIALLO IgE
+L1243   ;BAMBAGIONA (G13)                                                                ;T.GIALLO IgE
+L1261   ;PENICILLUM NOTATUM                                                              ;T.GIALLO IgE
+L1262   ;CLADOSPORIUM HERBARUM (M2)                                                      ;T.GIALLO IgE
+L1263   ;ASPERGILLUS FUMIGATUS (M3)                                                      ;T.GIALLO IgE
+L1265   ;CANDIDA ALBICANS (M5)                                                           ;T.GIALLO IgE
+L1266   ;ALTERNARIA ALTERNATA tenuis (M6)                                                ;T.GIALLO IgE
+L1267   ;ASPERGILLUS NIGER (M207)                                                        ;T.GIALLO IgE
+L1300   ;PENICILLINA G (C1)                                                              ;T.GIALLO IgE
+L1301   ;PENICILLINA V (C2)                                                              ;T.GIALLO IgE
+L1302   ;AMPICILLINA (C5)                                                                ;T.GIALLO IgE
+L1303   ;AMOXICILLINA (C6)                                                               ;T.GIALLO IgE
+L1311   ;APE (I1)                                                                        ;T.GIALLO IgE
+L1312   ;CALABRONE BIANCO (I2)                                                           ;T.GIALLO IgE
+L1313   ;GIALLONE vespula spp (I3)                                                       ;T.GIALLO IgE
+L1314   ;VESPA polistes species (I4)                                                     ;T.GIALLO IgE
+L1315   ;CALABRONE GIALLO (I5)                                                           ;T.GIALLO IgE
+L1320   ;VESPA EUROPEA (I77)                                                             ;T.GIALLO IgE
+L1321   ;CALABRONE EUROPEO (I75)                                                         ;T.GIALLO IgE
+L1322   ;BOMBO (I205)                                                                    ;T.GIALLO IgE
+L1323   ;ZANZARA COMUNE (I71)                                                            ;T.GIALLO IgE
+L1324   ;TAFANO (I204)                                                                   ;T.GIALLO IgE
+L1325   ;FORMICA solenopsis invicta (I70)                                                ;T.GIALLO IgE
+L1361   ;ACERO (T1)                                                                      ;T.GIALLO IgE
+L1362   ;ONTANO BIANCO (T2)                                                              ;T.GIALLO IgE
+L1363   ;BETULLA (T3)                                                                    ;T.GIALLO IgE
+L1364   ;NOCCIOLO (T4)                                                                   ;T.GIALLO IgE
+L1365   ;FAGGIO (T5)                                                                     ;T.GIALLO IgE
+L1367   ;QUERCIA BIANCA (T7)                                                             ;T.GIALLO IgE
+L1368   ;OLMO AMERICANO (T8)                                                             ;T.GIALLO IgE
+L1369   ;OLIVO (T9)                                                                      ;T.GIALLO IgE
+L1371   ;PLATANO (T11)                                                                   ;T.GIALLO IgE
+L1372   ;SALICE (T12)                                                                    ;T.GIALLO IgE
+L1373   ;PIOPPO (T14)                                                                    ;T.GIALLO IgE
+L1374   ;FRASSINO (T15)                                                                  ;T.GIALLO IgE
+L1375   ;PINO (T16)                                                                      ;T.GIALLO IgE
+L1378   ;ACACIA (T19)                                                                    ;T.GIALLO IgE
+L1382   ;CIPRESSO MEDITERRANEO (T23)                                                     ;T.GIALLO IgE
+L1421   ;AMBROSIA COMUNE Artemisifoglia (W1)                                             ;T.GIALLO IgE
+L1422   ;AMBROSIA PSILOSTACHYA (W2)                                                      ;T.GIALLO IgE
+L1423   ;AMBROSIA TRIFIDA (W3)                                                           ;T.GIALLO IgE
+L1425   ;ARTEMISIA ABSINTHIUM (W5)                                                       ;T.GIALLO IgE
+L1426   ;ASSENZIO SELVATICO Artem. vul. (W6)                                             ;T.GIALLO IgE
+L1427   ;MARGHERITA DEI PRATI (W7)                                                       ;T.GIALLO IgE
+L1428   ;DENTE DI LEONE (W8)                                                             ;T.GIALLO IgE
+L1439   ;PARIETARIA OFFICINALIS (W19)                                                    ;T.GIALLO IgE
+L1440   ;ORTICA COMUNE (W20)                                                             ;T.GIALLO IgE
+L1441   ;PARIETARIA JUDAICA (W21)                                                        ;T.GIALLO IgE
+L1476   ;ISOCIANATO (METILENE BISFENIL MDI) (K76)                                        ;T.GIALLO IgE
+L1482   ;LATTICE (K82)                                                                   ;T.GIALLO IgE
+L1521   ;ASCARIS (P1)                                                                    ;T.GIALLO IgE
+L1859   ;SANGUE OCCULTO FECI CUP                                                         ;FECI
+L1861   ;BIANCO D'UOVO (IgG F1)                                                          ;T.GIALLO**
+L1863   ;MERLUZZO pesce (IgG F3)                                                         ;T.GIALLO**
+L1864   ;GRANO (IgG F4)                                                                  ;T.GIALLO**
+L1865   ;SEGALE (IgG F5)                                                                 ;T.GIALLO**
+L1867   ;AVENA (IgG F7)                                                                  ;T.GIALLO**
+L1868   ;GRANOTURCO Mais (IgG F8)                                                        ;T.GIALLO**
+L1869   ;RISO (IgG F9)                                                                   ;T.GIALLO**
+L1870   ;SEME DI SESAMO (IgG F10)                                                        ;T.GIALLO**
+L1871   ;GRANO SARACENO (IgG F11)                                                        ;T.GIALLO**
+L1872   ;PISELLO (IgG F12)                                                               ;T.GIALLO**
+L1873   ;ARACHIDI (IgG F13)                                                              ;T.GIALLO**
+L1874   ;SEME DI SOIA (IgG F14)                                                          ;T.GIALLO**
+L1876   ;NOCCIOLA (IgG F17)                                                              ;T.GIALLO**
+L1877   ;NOCE BRASILIANA (IgG F18)                                                       ;T.GIALLO**
+L1878   ;MANDORLA (IgG F20)                                                              ;T.GIALLO**
+L1880   ;GAMBERO (IgG F24)                                                               ;T.GIALLO**
+L1881   ;POMODORO (IgG F25)                                                              ;T.GIALLO**
+L1882   ;CARNE di MAIALE (IgG F26)                                                       ;T.GIALLO**
+L1883   ;BUE Carne di manzo (IgG F27)                                                    ;T.GIALLO**
+L1884   ;CAROTA (IgG F31)                                                                ;T.GIALLO**
+L1885   ;ARANCIA (IgG F33)                                                               ;T.GIALLO**
+L1886   ;PATATA (IgG F35)                                                                ;T.GIALLO**
+L1888   ;MITILI (IgG F37)                                                                ;T.GIALLO**
+L1889   ;TONNO (IgG F40)                                                                 ;T.GIALLO**
+L1890   ;SALMONE (IgG F41)                                                               ;T.GIALLO**
+L1891   ;FRAGOLA (IgG F44)                                                               ;T.GIALLO**
+L1892   ;LIEVITO Saccharom.cerev. (IgG F45)                                              ;T.GIALLO**
+L1893   ;AGLIO (IgG F47)                                                                 ;T.GIALLO**
+L1894   ;CIPOLLA (IgG F48)                                                               ;T.GIALLO**
+L1895   ;MELA (IgG F49)                                                                  ;T.GIALLO**
+L1900   ;TUORLO D'UOVO (IgG F75)                                                         ;T.GIALLO**
+L1901   ;ALFA LATTOALBUMINA (IgG F76)                                                    ;T.GIALLO**
+L1902   ;BETA LATTOGLOBULINA (IgG F77)                                                   ;T.GIALLO**
+L1903   ;CASEINA (IgG F78)                                                               ;T.GIALLO**
+L1904   ;GLUTINE (IgG F79)                                                               ;T.GIALLO**
+L1906   ;FORMAGGIO DOLCE (IgG F81)                                                       ;T.GIALLO**
+L1907   ;FORMAGGIO FERMENTATO (IgG F82)                                                  ;T.GIALLO**
+L1908   ;POLLO (IgG F83)                                                                 ;T.GIALLO**
+L1909   ;KIWI (IgG F84)                                                                  ;T.GIALLO**
+L1910   ;SEDANO (IgG F85)                                                                ;T.GIALLO**
+L1911   ;PREZZEMOLO (IgG F86)                                                            ;T.GIALLO**
+L1912   ;MELONE (IgG F87)                                                                ;T.GIALLO**
+L1914   ;SENAPE (IgG F89)                                                                ;T.GIALLO**
+L1915   ;MALTO (IgG F90)                                                                 ;T.GIALLO**
+L1917   ;BANANA (IgG F92)                                                                ;T.GIALLO**
+L1918   ;CACAO (IgG F93)                                                                 ;T.GIALLO**
+L1919   ;PERA (IgG F94)                                                                  ;T.GIALLO**
+L1920   ;PESCA (IgG F95)                                                                 ;T.GIALLO**
+L1927   ;VONGOLA (IgG F207)                                                              ;T.GIALLO**
+L1930   ;ANANAS (IgG F210)                                                               ;T.GIALLO**
+L1931   ;FUNGO (IgG F212)                                                                ;T.GIALLO**
+L1939   ;CAFFE' (IgG F221)                                                               ;T.GIALLO**
+L1947   ;ALBICOCCA (IgG F237)                                                            ;T.GIALLO**
+L1950   ;SIERO DI LATTE MUCCA (IgG 236)                                                  ;T.GIALLO**
+L1953   ;NOCE (IgG F256)                                                                 ;T.GIALLO**
+L1954   ;UVA (IgG F259)                                                                  ;T.GIALLO**
+L1959   ;BASILICO (IgG F269)                                                             ;T.GIALLO**
+L1960   ;TROTA (IgG F204)                                                                ;T.GIALLO**
+L1961   ;POLPO (IgG F59)                                                                 ;T.GIALLO**
+L1962   ;MELANZANA (IgG F262)                                                            ;T.GIALLO**
+L1964   ;ASTICE/ARAGOSTA (IgG F80)                                                       ;T.GIALLO**
+L1965   ;GRANCHIO (IgG F23)                                                              ;T.GIALLO**
+L1970   ;THE (IgG F222)                                                                  ;T.GIALLO**
+L1973   ;PAPAYA (IgG F293)                                                               ;T.GIALLO**
+L1974   ;SPINACI (IgG F214)                                                              ;T.GIALLO**
+L1975   ;PINOLI (IgG F253)                                                               ;T.GIALLO**
+L1977   ;ANACARDI (IgG F202)                                                             ;T.GIALLO**
+L1978   ;FAGIOLO (IgG F15)                                                               ;T.GIALLO**
+L1979   ;PISTACCHIO (IgG F203)                                                           ;T.GIALLO**
+L1984   ;CARNE DI TACCHINO (IgG F284)                                                    ;T.GIALLO**
+L1995   ;OLIVA (IgG F342)                                                                ;T.GIALLO**
+L1996   ;CASTAGNA (IgG F299)                                                             ;T.GIALLO**
+L1997   ;DIURESI 24 ORE ACIDO BORICO                                                     ;URI 24 BORICO
+L1999   ;DIURESI URINE 24H ACIDIFICATE                                                   ;URI 24 ACIDIFICATE
+L2000   ;DIURESI URINE 24 ORE                                                            ;URINE 24 ore
+L2100   ;CELIACHIA DQ2  DQ8                                                              ;T.VIOLA
+L2101   ;EMOCROMATOSI (3 MUTAZIONI)                                                      ;SY-T.VIOLA
+L2102   ;FATTORE II (G20210A)                                                            ;T.VIOLA
+L2103   ;FATTORE V (H1299R)                                                              ;T.VIOLA
+L2104   ;FATTORE V (Y1702C)                                                              ;T.VIOLA
+L2105   ;FATTORE V DI LEIDEN (G1691A)                                                    ;SY-T.VIOLA
+L2106   ;FATTORE XIII (V34L)                                                             ;T.VIOLA
+L2108   ;MICRODELEZIONI Y                                                                ;T.VIOLA
+L2109   ;INTOLLERANZA AL LATTOSIO                                                        ;T.VIOLA
+L2110   ;MTHFR 1298                                                                      ;T.VIOLA
+L2111   ;MTHFR 677                                                                       ;T.VIOLA
+L2112   ;PAI-1                                                                           ;T.VIOLA
+L2115   ;SCREENING HPV DNA HR                                                            ;
+L2117   ;NEISSERIA GONOR. (Biomolecolare)                                                ;NE-T.CERV
+L2118   ;MYCOPLASMA HOMINIS (Biomolecolare)                                              ;Mater.vari 
+L2119   ;MYCOPLASMA GENIT. (Biomolecolare)                                               ;TAMPONE
+L2120   ;UREAP.UREAL/PARVUM (Biomolecolare)                                              ;TAMPONE
+L2121   ;GENE FATTORE XII: RICERCA DELLA MUTAZIONE C46T                                  ;SY-T.VIOLA
+L2134   ;CARIOTIPO da sangue periferico                                                  ;SY-T.VERDE
+L2135   ;MUTAZIONE G455A á FIBRINOGENO                                                   ;T.VIOLA
+L2137   ;HPA-1 VARIAZIONE 1a/1b                                                          ;T.VIOLA
+L2140   ;CHLAMYDIA TRAC.  (t.o.)                                                         ;T.OCUL. CHL
+L2141   ;CHLAMYDIA TRAC. (T.U)                                                           ;CH-T.Uretrale
+L2142   ;CHLAMYDIA TRAC. (T.C)                                                           ;CH-T.Cervic
+L2144   ;CHLAMYDIA TRAC. (T.Far.)                                                        ;CH-T.Faringeo
+L2146   ;PAN. CARDIOVASCOLARE 12 MUT.                                                    ;T.VIOLA
+L2150   ;FSHR (T307A e N680S)                                                            ;T.VIOLA
+L2153   ;VIRUS EPATITE C Tipizzazione                                                    ;SY-T.ROSSO CONG
+L2154   ;PAP TEST STRATO SOTTILE                                                         ;THIN PREP
+L2158   ;SEQUENZA GENE HBB                                                               ;T.VIOLA
+L2159   ;PAP TEST STRATO SOTTILE + HPV                                                   ;THINPREP+HPV
+L2160   ;CELLULE NATURAL KILLER                                                          ;T.VIOLA
+L2164   ;EBV DNA (EPSTEIN BARR VIRUS)                                                    ;SY-T.VIOLA CONG
+L2180   ;INTOLLERANZA GLUTINE+LATTOSIO                                                   ;T.VIOLA
+L2181   ;CHLAMYDIA+NEISSERIA  (T.U)                                                      ;CH+NEI-T.UreT
+L2182   ;CHLAMYDIA+NEISSERIA (T.C)                                                       ;CH+NEI-T.Cerv
+L2184   ;CHLAMYDIA+NEISSERIA (T.Oc.)                                                     ;CH+NEI-T.Oc
+L2186   ;CHLAMYDIA+NEISSERIA (T.Faringeo)                                                ;CH+NEI-T.F.
+L2191   ;HPV RNA                                                                         ;THIN PREP
+L2192   ;TEST DI FRAMMENTAZIONE DEL DNA (HALOSPERM)                                      ;Liq.seminale
+L2194   ;SMN1 (ATROFIA MUSCOLARE SPINALE - SMA)                                          ;SY-T.VIOLA
+L2194   ;SMN1 (ATROFIA MUSCOLARE SPINALE - SMA)                                          ;SY-T.VIOLA
+L2195   ;CHLAMYDIA+NEISSERIA  (T.Ret)                                                    ;CH+NEI-T.Ret
+L2196   ;NEISSERIA GONOR. (T.Uretrale)                                                   ;NE-T.Uretrale
+L2199   ;NEISSERIA GONOR. (T.Rettale)                                                    ;NE-T.RET
+L2200   ;NEISSERIA GONOR. (T.Faringeo)                                                   ;NE-T.FAR
+L2201   ;NEISSERIA GONOR. (T.Oculare)                                                    ;NE-T.OC
+L2202   ;ANALISI DI PREMUTAZIONE DEL GENE FMR1 (SINDROME DA X-FRAGILE)                   ;SY-T.VIOLA
+L2203   ;CHLAMYDIA  TRAC. (T.RET)                                                        ;T.RETT.CHLAM
+L2204   ;CHLAMYDIA  TRAC. (T.Ret)                                                        ;T.RETT.CHLAM
+L2205   ;GEN SHOX: ricerca di delezioni/duplicazioni nel gene shox                       ;SY-T.VIOLA
+L2300   ;PRENATAL SURE 3                                                                 ;PRENATAL
+L2301   ;PRENATAL SURE 5                                                                 ;PRENATAL
+L2302   ;PRENATAL SURE PLUS                                                              ;PRENATAL
+L2303   ;PRENATAL SURE KARYO                                                             ;PRENATAL
+L2304   ;PRENATAL SURE KARYO PLUS                                                        ;PRENATAL
+L2305   ;PRENATAL SURE GENETICS                                                          ;PRENATAL
+L2306   ;PRENATAL SURE GENETICS MICRO                                                    ;PRENATAL
+L2311   ;PAPP-A+FREE BHCG                                                                ;GEN-T.GIALLO
+L2312   ;ENTEROBIOME FECALE                                                              ;GEN-FECI 
+L2390   ;S-NUTRISMART(AESKUCARE)                                                         ;T.ROSSO
+L3000   ;H2 BREATH TEST (LATTOSIO)                                                       ;B.T. LATTO
+L3001   ;H2 BREATH TEST GLUCOSIO                                                         ;B.T. GLUCOSIO
+L3002   ;UREA BREATH TEST (Helicobacter)                                                 ;B.T. UREA
+L3003   ;H2 BREATH TEST LATTULOSIO                                                       ;B.T.LATTUL
+L3004   ;H2 BREATH TEST FRUTTOSIO                                                        ;B.T.FRUTT
+L3005   ;H2 BREATH TEST (SORBITOLO)                                                      ;B.T. SORBIT
+L3010   ;CARIOTIPO SU SANGUE PERIFERICO AD ALTA RISOLUZIONE                              ;SY-T.VERDE
+L3800   ;CITOLOGIA PER AGOASPIRAZIONE                                                    ;Ago aspirato
+L3802   ;ESAME CITOLOGICO PER AGO ASPIRATO                                               ;Ago aspirato
