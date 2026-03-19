@@ -31,7 +31,6 @@ L0034   ;ESAME CITOLOGICO X RICERCA ASBESTO                                     
 L0035   ;U-GLUCOSIO pomeridiano                                                          ;URINE POMERIGGIO
 L0036   ;Sg-VELOCITA'DI ERITROSEDIMENTAZIONE(VES)                                        ;T.VIOLA
 L0037   ;Sg-EMOCROMO                                                                     ;T.VIOLA
-L0037   ;Sg-EMOCROMO                                                                     ;T.VIOLA
 L0040   ;Sg-EMOGLOBINA GLICATA                                                           ;T.VIOLA
 L0041   ;Sg-PIASTRINE IN CITRATO                                                         ;T.AZZURRO PLT
 L0042   ;Sg-RETICOLOCITI                                                                 ;T.VIOLA
@@ -314,7 +313,7 @@ L0397   ;S-APOLIPOPROTEINA A1                                                   
 L0398   ;S-APOLIPOPROTEINA B                                                             ;SY-T.GIALLO
 L0399   ;S-LIPOPROTEINA (a)                                                              ;SY-T.GIALLO
 L0400   ;S-TNF (TUMOR NECROSIS FACTOR)                                                   ;SY-T.GIALLO CONG
-L0401   ;eGFR Velocit… di Filtrazione Glomerulare                                        ;T.GIALLO
+L0401   ;eGFR VelocitÂ… di Filtrazione Glomerulare                                        ;T.GIALLO
 L0405   ;U-ACIDO ACETICO fine turno                                                      ;CE-Urine F.T.
 L0409   ;S-COLESTEROLO LDL (determinazione dir.)                                         ;T.GIALLO
 L0410   ;LDL OSSIDATE                                                                    ;SY-T.GIALLO CONG
@@ -884,7 +883,7 @@ L2119   ;MYCOPLASMA GENIT. (Biomolecolare)                                      
 L2120   ;UREAP.UREAL/PARVUM (Biomolecolare)                                              ;TAMPONE
 L2121   ;GENE FATTORE XII: RICERCA DELLA MUTAZIONE C46T                                  ;SY-T.VIOLA
 L2134   ;CARIOTIPO da sangue periferico                                                  ;SY-T.VERDE
-L2135   ;MUTAZIONE G455A á FIBRINOGENO                                                   ;T.VIOLA
+L2135   ;MUTAZIONE G455A Ã¡ FIBRINOGENO                                                   ;T.VIOLA
 L2137   ;HPA-1 VARIAZIONE 1a/1b                                                          ;T.VIOLA
 L2140   ;CHLAMYDIA TRAC.  (t.o.)                                                         ;T.OCUL. CHL
 L2141   ;CHLAMYDIA TRAC. (T.U)                                                           ;CH-T.Uretrale
