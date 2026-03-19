@@ -23,7 +23,7 @@
       --radius: 10px;
     }
 
-    body { font-family: 'Sora', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+    body { font-family: 'Sora', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
 
     header {
       background: var(--accent); color: #fff;
@@ -118,7 +118,10 @@
       .stats-bar     { padding: 10px 12px; font-size: 0.78rem; }
 
       .table-container { padding: 12px 8px 32px; }
-      table          { font-size: 0.82rem; }
+        table          { font-size: 0.82rem; table-layout: fixed; width: 100%; }
+      td.codice      { width: 22%; }
+      td.descrizione { width: 52%; word-break: break-word; }
+      td:last-child  { width: 26%; word-break: break-word; }
       thead th       { padding: 10px 8px; font-size: 0.68rem; }
       tbody td       { padding: 10px 8px; font-size: 0.82rem; }
       td.codice      { font-size: 0.75rem; }
@@ -144,7 +147,7 @@
     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
     </svg>
-    <input id="searchInput" type="text" placeholder="Cerca esame..." autocomplete="off"/>
+    <input id="searchInput" type="text" placeholder="Cerca esame... es. emocromo, glucosio" autocomplete="off"/>
     <button class="clear-btn" id="clearBtn" title="Cancella">✕</button>
   </div>
 </div>
